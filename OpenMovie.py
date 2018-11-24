@@ -55,13 +55,13 @@ class OpenMovie:
         Download the poster for this title and save with the same name
         """
 
-        # If ’poster’ is not in our movie member, log and return false
+        # If ’poster’ is not in our movie member, log and return False
         if self.movie['poster'] is "N/A":
             logging.warning("{} does not have a poster url".format(self.title))
             return False
-        # If it is, set the posterURL to the ’poster’ element of the movie member
-        else:
-            self.posterURL = self.movie['poster']
+
+        # Set the posterURL to the ’poster’ element of the movie member
+        self.posterURL = self.movie['poster']
 
         # Clear up the title of the movie poster name.  these symbols in a filename can create
         # problems for the OS and writing the file
@@ -83,6 +83,28 @@ class OpenMovie:
             return False
 
         return True
+
+    def getAwards(self):
+        """
+        Download the awards section for a movie from IMDB
+        Use requests to download and beau-soup to scrape the info
+        """
+        # check if movie has "imbd_id"
+        if self.movie['imdb_id'] is "N/A":
+            logging.warning("{} is not in imdb".format(self.title))
+            return
+
+        # extract the imbd id from ombd and feed it to the url
+        self.imbdId = self.movie['imbd_id']
+        self.url = "https://www.imdb.com/title/{}/awards?ref =tt awd".format(self.imbdId)
+
+        # request get the url and turn it into soup
+        r = requests.get(self.url)
+        # soup = bs4.BeautifulSoup(r.text)  # this is the canonical UCLA class example way
+        soup = bs4.BeautifulSoup(r.text, "lxml")  # this is the only way to stop my program from throwing error
+        
+
+
 
     def getMovieTitleData(self):
         """
