@@ -89,21 +89,29 @@ class OpenMovie:
         Download the awards section for a movie from IMDB
         Use requests to download and beau-soup to scrape the info
         """
-        # check if movie has "imbd_id"
+        # check if movie has IMDB ID
         if self.movie['imdb_id'] is "N/A":
             logging.warning("{} is not in imdb".format(self.title))
             return
 
-        # extract the imbd id from ombd and feed it to the url
-        self.imbdId = self.movie['imbd_id']
-        self.url = "https://www.imdb.com/title/{}/awards?ref =tt awd".format(self.imbdId)
+        # extract the IMDB ID from OMDB and feed it to the url
+        self.imbdID = self.movie['imbd_id']
+        self.url = "https://www.imdb.com/title/{}/awards?ref =tt awd".format(self.imbdID)
 
         # request get the url and turn it into soup
         r = requests.get(self.url)
+
         # soup = bs4.BeautifulSoup(r.text)  # this is the canonical UCLA class example way
         soup = bs4.BeautifulSoup(r.text, "lxml")  # this is the only way to stop my program from throwing error
-        
 
+        # in the soup, find table with attributes 'class': 'awards'
+        table = soup.find('table', attrs={'class': 'awards'})
+
+        # if table comes back as None, set class member awardsDict to an empty dict and return
+        if table is None:
+            self.awardDict = {}
+            logging.info("{} has no award".format(self.title))
+            return
 
 
     def getMovieTitleData(self):
