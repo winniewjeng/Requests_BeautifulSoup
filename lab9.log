@@ -1,0 +1,66 @@
+11/14/2018 10:19:34 PM,INFO,Program Starting
+11/14/2018 10:19:45 PM,DEBUG,getPoster TITLE: Avatar URL:https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg
+11/14/2018 10:20:08 PM,ERROR,Gone with the Wind not in moviesJSON
+11/14/2018 10:20:08 PM,DEBUG,getPoster TITLE: Gone with the Wind URL:None
+11/14/2018 10:20:19 PM,DEBUG,getPoster TITLE: Iron Man URL:https://images-na.ssl-images-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg
+11/14/2018 10:20:34 PM,INFO,Program Terminated
+11/16/2018 03:54:19 AM,INFO,Program Starting
+11/16/2018 03:54:29 AM,DEBUG,getPoster TITLE: Avatar URL:https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg
+11/16/2018 03:54:38 AM,ERROR,Titanic not in moviesJSON
+11/16/2018 03:54:38 AM,DEBUG,getPoster TITLE: Titanic URL:None
+11/16/2018 03:54:56 AM,ERROR,House of Flying Daggers not in moviesJSON
+11/16/2018 03:54:56 AM,DEBUG,getPoster TITLE: House of Flying Daggers URL:None
+11/16/2018 03:55:19 AM,ERROR,Lion King not in moviesJSON
+11/16/2018 03:55:19 AM,ERROR,Movie Not in Database Lion King
+11/16/2018 03:55:20 AM,ERROR,Lion King not in moviesJSON
+11/16/2018 03:55:20 AM,ERROR,Movie Not in Database Lion King
+11/16/2018 03:55:25 AM,ERROR,Toy Story not in moviesJSON
+11/16/2018 03:55:25 AM,DEBUG,getPoster TITLE: Toy Story URL:None
+11/16/2018 03:55:33 AM,ERROR,Toy Story II not in moviesJSON
+11/16/2018 03:55:33 AM,ERROR,Movie Not in Database Toy Story II
+11/16/2018 03:55:39 AM,ERROR,Toy Story III not in moviesJSON
+11/16/2018 03:55:39 AM,ERROR,Movie Not in Database Toy Story III
+11/16/2018 03:55:42 AM,ERROR,Toy Story IV not in moviesJSON
+11/16/2018 03:55:42 AM,ERROR,Movie Not in Database Toy Story IV
+11/16/2018 03:55:50 AM,ERROR,Frozen not in moviesJSON
+11/16/2018 03:55:50 AM,DEBUG,getPoster TITLE: Frozen URL:None
+11/16/2018 03:56:01 AM,ERROR,The Incredibles not in moviesJSON
+11/16/2018 03:56:01 AM,DEBUG,getPoster TITLE: The Incredibles URL:None
+11/16/2018 03:56:08 AM,ERROR,Frozen not in moviesJSON
+11/16/2018 03:56:08 AM,DEBUG,getPoster TITLE: Frozen URL:None
+11/16/2018 03:56:20 AM,ERROR,Little Mermaid not in moviesJSON
+11/16/2018 03:56:20 AM,ERROR,Movie Not in Database Little Mermaid
+11/16/2018 03:56:35 AM,ERROR,Harry Potter and the Goblet of Fire not in moviesJSON
+11/16/2018 03:56:35 AM,DEBUG,getPoster TITLE: Harry Potter and the Goblet of Fire URL:None
+11/16/2018 03:56:50 AM,ERROR,Harry Potter and the Philosopher's Stone not in moviesJSON
+11/16/2018 03:56:50 AM,DEBUG,getPoster TITLE: Harry Potter and the Philosopher's Stone URL:None
+11/16/2018 03:57:08 AM,ERROR,Harry Potter and the Order of Phoenix not in moviesJSON
+11/16/2018 03:57:08 AM,ERROR,Movie Not in Database Harry Potter and the Order of Phoenix
+11/16/2018 03:57:20 AM,ERROR,Harry Potter and the Deathly Hollow not in moviesJSON
+11/16/2018 03:57:20 AM,ERROR,Movie Not in Database Harry Potter and the Deathly Hollow
+11/16/2018 03:57:37 AM,ERROR,Harry Potter and the Chamber of Secret not in moviesJSON
+11/16/2018 03:57:37 AM,ERROR,Movie Not in Database Harry Potter and the Chamber of Secret
+11/16/2018 03:57:55 AM,ERROR,Ready Player 1 not in moviesJSON
+11/16/2018 03:57:55 AM,ERROR,Movie Not in Database Ready Player 1
+11/16/2018 03:58:07 AM,ERROR,Mean Girls not in moviesJSON
+11/16/2018 03:58:07 AM,DEBUG,getPoster TITLE: Mean Girls URL:None
+11/16/2018 03:58:32 AM,ERROR,Legally Blond not in moviesJSON
+11/16/2018 03:58:32 AM,ERROR,Movie Not in Database Legally Blond
+11/16/2018 03:58:40 AM,ERROR,Forrest Gump not in moviesJSON
+11/16/2018 03:58:40 AM,DEBUG,getPoster TITLE: Forrest Gump URL:None
+11/16/2018 03:58:58 AM,ERROR,Forrest Gumps not in moviesJSON
+11/16/2018 03:58:58 AM,ERROR,Movie Not in Database Forrest Gumps
+11/16/2018 03:59:05 AM,DEBUG,getPoster TITLE: Clerks URL:https://ia.media-imdb.com/images/M/MV5BNzE1Njk0NmItNDhlMC00ZmFlLWI4ZTUtYTY4ZjgzNjkyMTU1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
+11/16/2018 03:59:22 AM,ERROR,Sherlock not in moviesJSON
+11/16/2018 03:59:22 AM,ERROR,Movie Not in Database Sherlock
+11/16/2018 03:59:26 AM,ERROR,Sherlock Holms not in moviesJSON
+11/16/2018 03:59:26 AM,ERROR,Movie Not in Database Sherlock Holms
+11/16/2018 03:59:30 AM,ERROR,Sherlock Holmes not in moviesJSON
+11/16/2018 03:59:30 AM,DEBUG,getPoster TITLE: Sherlock Holmes URL:None
+11/16/2018 04:00:19 AM,INFO,Program Terminated
+11/16/2018 04:52:08 AM,INFO,Program Starting
+11/16/2018 04:52:12 AM,DEBUG,getPoster TITLE: Avatar URL:https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg
+11/16/2018 04:52:36 AM,INFO,Program Terminated
+11/23/2018 10:46:20 PM,INFO,Program Starting
+11/23/2018 10:46:26 PM,DEBUG,getPoster TITLE: Avatar URL:https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg
+11/23/2018 10:46:27 PM,INFO,Program Terminated
