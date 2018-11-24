@@ -35,6 +35,12 @@ class OpenMovie:
         except:
             pass
 
+        client = omdb.OMDBClient(apikey=os.environ['OMDB_API_KEY'])
+        try:
+            movie = client.get(title=title)
+        except:
+            logging.error("Could not get {} from omdb".format(title))
+
         return
 
     def __del__(self):
