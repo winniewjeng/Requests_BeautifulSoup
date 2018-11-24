@@ -37,7 +37,7 @@ class OpenMovie:
 
         client = omdb.OMDBClient(apikey=os.environ['OMDB_API_KEY'])
         try:
-            movie = client.get(title=title)
+            self.movie = client.get(title=title)
         except:
             logging.error("Could not get {} from omdb".format(title))
 
@@ -55,12 +55,13 @@ class OpenMovie:
         Download the poster for this title and save with the same name
         """
 
-        logging.debug("getPoster TITLE: {} URL:{}".format(self.title, self.posterURL))
-        print("getPoster TITLE: {} URL:{}".format(self.title, self.posterURL))
-
-        # Only work with valid URLS
-        if self.posterURL is None:
-            return
+        # If ’poster’ is not in our movie member, log and return false
+        if self.movie['poster'] is "N/A":
+            logging.warning("{} does not have a poster url".format(self.title))
+            return False
+        # If it is, set the posterURL to the ’poster’ element of the movie member
+        else:
+            self.posterURL = self.movie['poster']
 
         # Clear up the title of the movie poster name.  these symbols in a filename can create
         # problems for the OS and writing the file
