@@ -68,18 +68,16 @@ class UI(PyQt5.QtWidgets.QMainWindow):
         director, crew = openMovie.getCrew()
 
         awardDict = openMovie.getAwards()
-        # print("awardDict: {}".format(awardDict))
 
-        # how do i "clear" central window awardsDisplay??? (6-d)
+        # Update UI_CentralWindow with awardDict
         self.statusBar().showMessage("Start Getting Award")
         if awardDict is False or awardDict is None:
             self.centralWidget.awardsDisplay.setText("No Award")
             return
         else:
-            # Update UI_CentralWindow with awardDict
             self.centralWidget.updateAwards(awardDict)
-        self.statusBar().showMessage("Done Getting Award")
 
+        # Update UI_CentralWindow with posterFileName
         self.statusBar().showMessage("Start Getting Poster")
 
         if openMovie.getPoster() is False:
@@ -90,7 +88,7 @@ class UI(PyQt5.QtWidgets.QMainWindow):
 
         self.statusBar().showMessage("Done Getting Poster")
 
-        # Upate the GUI
+        # Update the GUI
         self.centralWidget.directorInformation.infoLabel.setText(director)
         self.centralWidget.actorInformation.infoLabel.setText(cast[0]['name'])
         self.centralWidget.releaseDateInformation.infoLabel.setText(

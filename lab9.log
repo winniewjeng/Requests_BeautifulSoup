@@ -931,3 +931,282 @@
 11/29/2018 03:20:36 PM,INFO,Entering getPoster method
 11/29/2018 03:20:37 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTM0NDAxOTI5MF5BMl5BanBnXkFtZTcwNjI4Mjg3NA@@._V1_SX300.jpg, POSTER FILE NAME: Posters/West_Side_Story.jpg
 11/29/2018 03:20:44 PM,INFO,Program Terminated
+11/29/2018 03:25:59 PM,INFO,Program Starting
+11/29/2018 03:26:27 PM,ERROR,Tentacolino not in moviesJSON
+11/29/2018 03:26:27 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:26:27 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:26:27 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Tentacolino&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 03:26:27 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Tentacolino
+11/29/2018 03:26:27 PM,ERROR,Movie Not in Database Tentacolino
+11/29/2018 03:26:42 PM,ERROR,Monster a-Go Go not in moviesJSON
+11/29/2018 03:26:42 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:26:42 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:26:42 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Monster+a-Go+Go&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:26:42 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Monster a-Go Go
+11/29/2018 03:26:42 PM,ERROR,Movie Not in Database Monster a-Go Go
+11/29/2018 03:27:07 PM,ERROR,Power Rangers not in moviesJSON
+11/29/2018 03:27:07 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:27:07 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:27:07 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Power+Rangers&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:27:07 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Power Rangers
+11/29/2018 03:27:07 PM,ERROR,Movie Not in Database Power Rangers
+11/29/2018 03:27:17 PM,ERROR,Transformers not in moviesJSON
+11/29/2018 03:27:17 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:27:17 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:27:18 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Transformers&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:27:18 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Transformers
+11/29/2018 03:27:18 PM,INFO,Entering getAwards method
+11/29/2018 03:27:18 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:27:18 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0418279/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:27:19 PM,INFO,Exiting getAward method. AWARD: {}
+11/29/2018 03:27:19 PM,INFO,Entering getPoster method
+11/29/2018 03:27:19 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BNDg1NTU2OWEtM2UzYi00ZWRmLWEwMTktZWNjYWQ1NWM1OThjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg, POSTER FILE NAME: Posters/Transformers.jpg
+11/29/2018 03:27:34 PM,ERROR,The Shack not in moviesJSON
+11/29/2018 03:27:34 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:27:34 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:27:34 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Shack&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:27:34 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: The Shack
+11/29/2018 03:27:34 PM,ERROR,Movie Not in Database The Shack
+11/29/2018 03:27:51 PM,ERROR,The Dark Tower not in moviesJSON
+11/29/2018 03:27:51 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:27:51 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:27:51 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Dark+Tower&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:27:51 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: The Dark Tower
+11/29/2018 03:27:51 PM,ERROR,Movie Not in Database The Dark Tower
+11/29/2018 03:27:51 PM,ERROR,The Dark Tower not in moviesJSON
+11/29/2018 03:27:51 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:27:51 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:27:51 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Dark+Tower&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:27:51 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: The Dark Tower
+11/29/2018 03:27:51 PM,ERROR,Movie Not in Database The Dark Tower
+11/29/2018 03:27:58 PM,ERROR,Rings not in moviesJSON
+11/29/2018 03:27:58 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:27:58 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:27:58 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Rings&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:27:58 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Rings
+11/29/2018 03:27:58 PM,ERROR,Movie Not in Database Rings
+11/29/2018 03:28:08 PM,ERROR,Assassin's Creed not in moviesJSON
+11/29/2018 03:28:08 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:28:08 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:28:08 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Assassin%27s+Creed&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:28:08 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Assassin's Creed
+11/29/2018 03:28:08 PM,ERROR,Movie Not in Database Assassin's Creed
+11/29/2018 03:28:28 PM,ERROR,The Circle not in moviesJSON
+11/29/2018 03:28:28 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:28:28 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:28:29 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Circle&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:28:29 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: The Circle
+11/29/2018 03:28:29 PM,INFO,Entering getAwards method
+11/29/2018 03:28:29 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:28:29 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt4287320/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:28:29 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'COLA ', 'Location Team of the Year - Independent Feature Film': 'Edward Mazurek (supervising location manager)  Scott Trimble (location manager)  Philip Fracassi (location coordinator)  Kenton Harris (key assistant location manager)  Jack R. Tate (key assistant location manager)  Sea Change Productions (production company) '}
+11/29/2018 03:28:29 PM,INFO,Entering getPoster method
+11/29/2018 03:28:29 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMjY2OTM2Njc3Ml5BMl5BanBnXkFtZTgwNDgzODU3MTI@._V1_SX300.jpg, POSTER FILE NAME: Posters/The_Circle.jpg
+11/29/2018 03:28:54 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:28:54 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:28:54 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:28:54 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+11/29/2018 03:28:54 PM,INFO,Entering getAwards method
+11/29/2018 03:28:54 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:28:55 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:28:55 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+11/29/2018 03:28:55 PM,INFO,Entering getPoster method
+11/29/2018 03:28:56 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+11/29/2018 03:29:01 PM,INFO,Program Terminated
+11/29/2018 03:32:50 PM,INFO,Program Starting
+11/29/2018 03:32:55 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:32:55 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:32:55 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:32:55 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+11/29/2018 03:32:55 PM,INFO,Entering getAwards method
+11/29/2018 03:32:55 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:32:56 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:32:56 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+11/29/2018 03:32:56 PM,INFO,Entering getPoster method
+11/29/2018 03:32:56 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+11/29/2018 03:33:10 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:33:10 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:33:10 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:33:10 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+11/29/2018 03:33:10 PM,INFO,Entering getAwards method
+11/29/2018 03:33:10 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:33:11 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:33:11 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+11/29/2018 03:33:11 PM,INFO,Entering getPoster method
+11/29/2018 03:33:12 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+11/29/2018 03:33:15 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:33:15 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:33:15 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Iron+Man&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:33:15 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Iron Man
+11/29/2018 03:33:15 PM,INFO,Entering getAwards method
+11/29/2018 03:33:15 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:33:16 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0371746/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:33:17 PM,INFO,Exiting getAward method. AWARD: {}
+11/29/2018 03:33:17 PM,INFO,Entering getPoster method
+11/29/2018 03:33:17 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Iron_Man.jpg
+11/29/2018 03:33:17 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:33:17 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:33:17 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Iron+Man&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:33:17 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Iron Man
+11/29/2018 03:33:17 PM,INFO,Entering getAwards method
+11/29/2018 03:33:17 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:33:17 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0371746/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:33:18 PM,INFO,Exiting getAward method. AWARD: {}
+11/29/2018 03:33:18 PM,INFO,Entering getPoster method
+11/29/2018 03:33:18 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Iron_Man.jpg
+11/29/2018 03:33:18 PM,INFO,Program Terminated
+11/29/2018 03:33:19 PM,INFO,Program Starting
+11/29/2018 03:33:24 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:33:24 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:33:24 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:33:24 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+11/29/2018 03:33:24 PM,INFO,Entering getAwards method
+11/29/2018 03:33:24 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:33:25 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:33:26 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+11/29/2018 03:33:26 PM,INFO,Entering getPoster method
+11/29/2018 03:33:26 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+11/29/2018 03:33:33 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:33:33 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:33:33 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Iron+Man&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:33:33 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Iron Man
+11/29/2018 03:33:33 PM,INFO,Entering getAwards method
+11/29/2018 03:33:33 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:33:34 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0371746/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:33:34 PM,INFO,Exiting getAward method. AWARD: {}
+11/29/2018 03:33:34 PM,INFO,Entering getPoster method
+11/29/2018 03:33:34 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Iron_Man.jpg
+11/29/2018 03:33:39 PM,INFO,Program Terminated
+11/29/2018 03:33:57 PM,INFO,Program Starting
+11/29/2018 03:34:00 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:34:00 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:34:00 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:34:00 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+11/29/2018 03:34:00 PM,INFO,Entering getAwards method
+11/29/2018 03:34:00 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:34:02 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:34:02 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+11/29/2018 03:34:02 PM,INFO,Entering getPoster method
+11/29/2018 03:34:02 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+11/29/2018 03:34:12 PM,ERROR,West Side Story not in moviesJSON
+11/29/2018 03:34:12 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:34:12 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:34:12 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=West+Side+Story&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:34:12 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: West Side Story
+11/29/2018 03:34:12 PM,INFO,Entering getAwards method
+11/29/2018 03:34:12 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:34:12 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0055614/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:34:12 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Picture': 'Robert Wise ', 'Best Actor in a Supporting Role': 'George Chakiris ', 'Best Actress in a Supporting Role': 'Rita Moreno ', 'Best Director': 'Robert Wise Jerome Robbins     For the first time a directing award is being shared. ', 'Best Cinematography, Color': 'Daniel L. Fapp ', 'Best Art Direction-Set Decoration, Color': 'Boris Leven Victor A. Gangelin ', 'Best Costume Design, Color': 'Irene Sharaff ', 'Best Sound': 'Fred Hynes (Todd-AO SSD) Gordon Sawyer (Samuel Goldwyn SSD) ', 'Best Film Editing': 'Thomas Stanford ', 'Best Music, Scoring of a Musical Picture': 'Saul Chaplin Johnny Green Sid Ramin Irwin Kostal '}
+11/29/2018 03:34:12 PM,INFO,Entering getPoster method
+11/29/2018 03:34:13 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTM0NDAxOTI5MF5BMl5BanBnXkFtZTcwNjI4Mjg3NA@@._V1_SX300.jpg, POSTER FILE NAME: Posters/West_Side_Story.jpg
+11/29/2018 03:34:18 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:34:18 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:34:18 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Iron+Man&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:34:18 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Iron Man
+11/29/2018 03:34:18 PM,INFO,Entering getAwards method
+11/29/2018 03:34:18 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:34:19 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0371746/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:34:19 PM,INFO,Exiting getAward method. AWARD: {}
+11/29/2018 03:34:19 PM,INFO,Entering getPoster method
+11/29/2018 03:34:19 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Iron_Man.jpg
+11/29/2018 03:34:29 PM,ERROR,West Side Story not in moviesJSON
+11/29/2018 03:34:29 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:34:29 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:34:29 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=West+Side+Story&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:34:29 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: West Side Story
+11/29/2018 03:34:29 PM,INFO,Entering getAwards method
+11/29/2018 03:34:29 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:34:29 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0055614/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:34:29 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Picture': 'Robert Wise ', 'Best Actor in a Supporting Role': 'George Chakiris ', 'Best Actress in a Supporting Role': 'Rita Moreno ', 'Best Director': 'Robert Wise Jerome Robbins     For the first time a directing award is being shared. ', 'Best Cinematography, Color': 'Daniel L. Fapp ', 'Best Art Direction-Set Decoration, Color': 'Boris Leven Victor A. Gangelin ', 'Best Costume Design, Color': 'Irene Sharaff ', 'Best Sound': 'Fred Hynes (Todd-AO SSD) Gordon Sawyer (Samuel Goldwyn SSD) ', 'Best Film Editing': 'Thomas Stanford ', 'Best Music, Scoring of a Musical Picture': 'Saul Chaplin Johnny Green Sid Ramin Irwin Kostal '}
+11/29/2018 03:34:29 PM,INFO,Entering getPoster method
+11/29/2018 03:34:30 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTM0NDAxOTI5MF5BMl5BanBnXkFtZTcwNjI4Mjg3NA@@._V1_SX300.jpg, POSTER FILE NAME: Posters/West_Side_Story.jpg
+11/29/2018 03:34:37 PM,ERROR,Emma not in moviesJSON
+11/29/2018 03:34:37 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:34:37 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:34:37 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:34:37 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 03:34:37 PM,INFO,Entering getAwards method
+11/29/2018 03:34:37 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:34:38 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:34:39 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 03:34:39 PM,INFO,Entering getPoster method
+11/29/2018 03:34:39 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+11/29/2018 03:34:41 PM,INFO,Program Terminated
+11/29/2018 03:36:40 PM,INFO,Program Starting
+11/29/2018 03:36:45 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:36:45 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:36:45 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Iron+Man&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:36:45 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Iron Man
+11/29/2018 03:36:45 PM,INFO,Entering getAwards method
+11/29/2018 03:36:45 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:36:46 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0371746/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:36:46 PM,INFO,Exiting getAward method. AWARD: {}
+11/29/2018 03:36:46 PM,INFO,Entering getPoster method
+11/29/2018 03:36:46 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Iron_Man.jpg
+11/29/2018 03:36:50 PM,ERROR,Avengers not in moviesJSON
+11/29/2018 03:36:50 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:36:50 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:36:50 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avengers&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:36:50 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avengers
+11/29/2018 03:36:50 PM,ERROR,Movie Not in Database Avengers
+11/29/2018 03:36:58 PM,ERROR,Avangers not in moviesJSON
+11/29/2018 03:36:58 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:36:58 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:36:58 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avangers&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 03:36:58 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avangers
+11/29/2018 03:36:58 PM,ERROR,Movie Not in Database Avangers
+11/29/2018 03:37:07 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:37:07 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:37:07 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:37:07 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+11/29/2018 03:37:07 PM,INFO,Entering getAwards method
+11/29/2018 03:37:07 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:37:08 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:37:08 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+11/29/2018 03:37:08 PM,INFO,Entering getPoster method
+11/29/2018 03:37:08 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+11/29/2018 03:37:18 PM,ERROR,Titanic not in moviesJSON
+11/29/2018 03:37:18 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:37:18 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:37:18 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Titanic&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:37:18 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Titanic
+11/29/2018 03:37:18 PM,INFO,Entering getAwards method
+11/29/2018 03:37:18 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:37:19 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0120338/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:37:20 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Picture': 'James Cameron  Jon Landau ', 'Best Director': 'James Cameron ', 'Best Cinematography': 'Russell Carpenter ', 'Best Art Direction-Set Decoration': 'Peter Lamont (art director) Michael Ford (set decorator) ', 'Best Costume Design': 'Deborah Lynn Scott ', 'Best Sound': 'Gary Rydstrom Tom Johnson Gary Summers Mark Ulano ', 'Best Film Editing': 'Conrad Buff IV James Cameron Richard A. Harris ', 'Best Effects, Sound Effects Editing': 'Tom Bellfort Christopher Boyes ', 'Best Effects, Visual Effects': 'Robert Legato Mark A. Lasoff Thomas L. Fisher Michael Kanfer ', 'Best Music, Original Song': 'James Horner (music) Will Jennings (lyrics)     For the song "My Heart Will Go On", performed by Céline Dion. ', 'Best Music, Original Dramatic Score': 'James Horner '}
+11/29/2018 03:37:20 PM,INFO,Entering getPoster method
+11/29/2018 03:37:20 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg, POSTER FILE NAME: Posters/Titanic.jpg
+11/29/2018 03:37:32 PM,ERROR,Sense and Sensibility not in moviesJSON
+11/29/2018 03:37:32 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:37:32 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:37:32 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Sense+and+Sensibility&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:37:32 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Sense and Sensibility
+11/29/2018 03:37:32 PM,INFO,Entering getAwards method
+11/29/2018 03:37:32 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:37:32 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0114388/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:37:32 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Writing, Screenplay Based on Material Previously Produced or Published': 'Emma Thompson '}
+11/29/2018 03:37:32 PM,INFO,Entering getPoster method
+11/29/2018 03:37:33 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BNzk1MjU3MDQyMl5BMl5BanBnXkFtZTcwNjc1OTM2MQ@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Sense_and_Sensibility.jpg
+11/29/2018 03:37:42 PM,ERROR,Life of Pi not in moviesJSON
+11/29/2018 03:37:42 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:37:42 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:37:42 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Life+of+Pi&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:37:42 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Life of Pi
+11/29/2018 03:37:42 PM,INFO,Entering getAwards method
+11/29/2018 03:37:42 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:37:45 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0454876/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:37:45 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Directing': 'Ang Lee ', 'Best Achievement in Cinematography': 'Claudio Miranda ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Mychael Danna ', 'Best Achievement in Visual Effects': 'Bill Westenhofer Guillaume Rocheron Erik De Boer Donald Elliott '}
+11/29/2018 03:37:45 PM,INFO,Entering getPoster method
+11/29/2018 03:37:45 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BNTg2OTY2ODg5OF5BMl5BanBnXkFtZTcwODM5MTYxOA@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Life_of_Pi.jpg
+11/29/2018 03:38:10 PM,ERROR,Saving Private Ryan not in moviesJSON
+11/29/2018 03:38:10 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:38:10 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:38:11 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Saving+Private+Ryan&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:38:11 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Saving Private Ryan
+11/29/2018 03:38:11 PM,INFO,Entering getAwards method
+11/29/2018 03:38:11 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:38:12 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0120815/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:38:12 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Director': 'Steven Spielberg ', 'Best Cinematography': 'Janusz Kaminski ', 'Best Sound': 'Gary Rydstrom Gary Summers Andy Nelson Ron Judkins ', 'Best Film Editing': 'Michael Kahn ', 'Best Effects, Sound Effects Editing': 'Gary Rydstrom Richard Hymns '}
+11/29/2018 03:38:12 PM,INFO,Entering getPoster method
+11/29/2018 03:38:12 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg, POSTER FILE NAME: Posters/Saving_Private_Ryan.jpg
+11/29/2018 03:38:23 PM,INFO,Program Terminated

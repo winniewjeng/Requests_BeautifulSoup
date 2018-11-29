@@ -122,15 +122,17 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
         """
         Display the awards in the GUI
         """
-        event = True  # flag the first item in dict bc it's the name of the event, not award/winner
+        self.awardsDisplay.setText("")  # always reset the display box for every new movie
+
+        award = True  # flag the first item in dict bc it's the name of the award, not category/winner
         if awardsDict is not None:
-            for k, v in awardsDict.items():
-                if event is True:
-                    str = "{} {}".format(k, v)
+            for category, winners in awardsDict.items():
+                if award is True:
+                    str = "{} {}".format(category, winners)
                     self.awardsDisplay.append(str)
-                    event = False
+                    award = False
                 else:
-                    str = "Award: {} Winner(s): {}".format(k, v)
+                    str = "Category: {} Winner(s): {}".format(category, winners)
                     # print(str)
                     self.awardsDisplay.append(str)
         return
