@@ -252,9 +252,9 @@ class OpenMovie:
         return director, crew
 
 
-#  testing purpose. Comment out later
-if __name__ == "__main__":
-    print("Hello World")
-    op = OpenMovie()
-    # op.getAwards()
-    op.getPoster()
+# #  testing purpose. Comment out later
+# if __name__ == "__main__":
+#     print("Hello World")
+#     op = OpenMovie()
+#     # op.getAwards()
+#     op.getPoster()

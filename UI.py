@@ -4,7 +4,7 @@ At this level we instantiate the Central Window which has the
 GUI elements.  This is also the level of handling signal/slot connections.
 """
 import datetime
-# import json
+import json
 import logging
 import traceback
 
@@ -15,6 +15,8 @@ import sqlalchemy
 import OpenMovie
 import UI_CentralWindow
 
+
+# REMEMBER TO REMOVE JSON IMPORTS AND RELATED CODES!!!!
 
 class UI(PyQt5.QtWidgets.QMainWindow):
     """
@@ -64,8 +66,16 @@ class UI(PyQt5.QtWidgets.QMainWindow):
         cast = openMovie.getCast()
         director, crew = openMovie.getCrew()
 
+        awardDict = openMovie.getAwards()
+
+        # how do i "clear" central window awardsDisplay??? (6-d)
+
+        # Update UI_CentralWindow with awardDict
+        UI_CentralWindow.UI_CentralWindow.awardsDisplay(awardDict=awardDict)
+
         self.statusBar().showMessage("Start Getting Poster")
-        if (openMovie.getPoster() is False):
+
+        if openMovie.getPoster() is False:
             self.centralWidget.posterLabel.setText("No Poster")
             return
         else:
