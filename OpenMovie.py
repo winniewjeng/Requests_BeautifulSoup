@@ -93,6 +93,7 @@ class OpenMovie:
         try:
             # extract the IMDB ID from OMDB
             self.imbdID = self.movie['imbd_id']
+            # self.imbdID = "tt0499549"  # Avatar for testing purpose
         except:
             logging.warning("{} is not in imdb".format(self.title))
             return
@@ -110,10 +111,11 @@ class OpenMovie:
         table = soup.find('table', attrs={'class': 'awards'})
 
         # if table comes back as None, set class member awardsDict to an empty dict and return
+        self.awardDict = {}
         if table is None:
-            self.awardDict = {}
+            # self.awardDict = {}
             logging.info("{} has won no award".format(self.title))
-            return
+            return  # ??? do I return the empty dict or do i simply return?
 
         # find all rows in the table
         rows = table.find_all('tr')
@@ -131,10 +133,26 @@ class OpenMovie:
             if "Nominee" in x[0]:
                 break  # break out of the function
 
-            elif index is True:
-                print(x)
-                print("\n")
-                index = False
+            elif index is True:  # first winning category requires special parsing
+                # print(x)
+                # print("\n")
+                for item in x:
+                    if "Winner\nOscar" not in item: # this is what i want
+                        sublist = item.split('\n')
+                        print("|{}|".format(sublist))
+                        award_flag = True  # the award category is always the first element of the sublist
+                        award_key = ""
+                        award_val = ""
+                        for y in sublist:
+                            if award_flag == True:
+                                award_key = y  # this is the award category
+                                award_flag = False  # after getting the key, flag to get the winners' names
+                            else:
+                                award_val += y
+                                award_val += " "
+                        self.awardDict[award_key] = award_val
+                        print(self.awardDict)
+                index = False  # flag marks the end of first winning category
 
             else:
                 list = x[0].split('\n')
@@ -221,3 +239,10 @@ class OpenMovie:
             return False
 
         return director, crew
+
+
+#  testing purpose. Comment out later
+if __name__ == "__main__":
+    print("Hello World")
+    op = OpenMovie()
+    op.getAwards()
