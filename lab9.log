@@ -192,3 +192,652 @@
 11/28/2018 11:40:18 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
 11/28/2018 11:40:18 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Star+Wars&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
 11/28/2018 11:40:25 PM,INFO,Program Terminated
+11/28/2018 11:55:06 PM,INFO,Program Starting
+11/28/2018 11:55:16 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:55:16 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:55:16 PM,WARNING,Avatar is not in imdb
+11/28/2018 11:55:55 PM,INFO,Program Starting
+11/28/2018 11:55:59 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:55:59 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:55:59 PM,WARNING,Avatar is not in imdb
+11/28/2018 11:57:26 PM,INFO,Program Starting
+11/28/2018 11:57:31 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:57:31 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:57:31 PM,WARNING,Avatar is not in imdb
+11/28/2018 11:57:58 PM,INFO,Program Starting
+11/28/2018 11:58:02 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:58:02 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:58:02 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/28/2018 11:58:03 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/28/2018 11:58:51 PM,INFO,Program Starting
+11/28/2018 11:58:54 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:58:54 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:58:54 PM,WARNING,Avatar is not in imdb
+11/28/2018 11:59:01 PM,INFO,Program Terminated
+11/29/2018 12:00:09 AM,INFO,Program Starting
+11/29/2018 12:00:14 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 12:00:14 AM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 12:00:14 AM,WARNING,Avatar is not in imdb
+11/29/2018 12:00:16 AM,INFO,Program Terminated
+11/29/2018 12:25:44 AM,INFO,Program Starting
+11/29/2018 12:25:50 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 12:25:50 AM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 12:25:50 AM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 12:25:51 AM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 12:25:59 AM,INFO,Program Terminated
+11/29/2018 12:26:15 AM,INFO,Program Starting
+11/29/2018 12:26:19 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 12:26:19 AM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Iron+Man&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 12:26:19 AM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 12:26:20 AM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 12:27:26 AM,INFO,Program Terminated
+11/29/2018 12:27:28 AM,INFO,Program Starting
+11/29/2018 12:27:30 AM,INFO,Program Terminated
+11/29/2018 12:28:08 AM,INFO,Program Starting
+11/29/2018 12:28:13 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 12:28:39 AM,ERROR,Could not get Iron Man from omdb
+11/29/2018 12:28:39 AM,WARNING,Iron Man is not in imdb
+11/29/2018 12:28:39 AM,WARNING,Iron Man does not have a poster url
+11/29/2018 12:28:42 AM,INFO,Program Terminated
+11/29/2018 12:28:57 AM,INFO,Program Starting
+11/29/2018 12:29:02 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 12:29:51 AM,ERROR,Could not get Iron Man from omdb
+11/29/2018 12:29:51 AM,WARNING,Iron Man is not in imdb
+11/29/2018 12:29:51 AM,WARNING,Iron Man does not have a poster url
+11/29/2018 12:29:53 AM,INFO,Program Terminated
+11/29/2018 12:31:10 AM,INFO,Program Starting
+11/29/2018 12:31:44 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 12:32:14 AM,ERROR,Could not get Avatar from omdb
+11/29/2018 12:32:15 AM,WARNING,Avatar does not have a poster url
+11/29/2018 12:33:00 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 12:33:30 AM,ERROR,Could not get Avatar from omdb
+11/29/2018 12:33:30 AM,WARNING,Avatar does not have a poster url
+11/29/2018 12:33:49 AM,INFO,Program Starting
+11/29/2018 01:52:44 AM,INFO,Program Starting
+11/29/2018 01:52:50 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:52:50 AM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:52:56 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:52:56 AM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Iron+Man&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:52:59 AM,INFO,Program Terminated
+11/29/2018 01:24:50 PM,INFO,Program Starting
+11/29/2018 01:24:55 PM,ERROR,Open not in moviesJSON
+11/29/2018 01:25:25 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:25:38 PM,INFO,Program Starting
+11/29/2018 01:25:59 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:25:59 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:26:03 PM,ERROR,Open not in moviesJSON
+11/29/2018 01:26:03 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:26:03 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Open&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:26:03 PM,ERROR,Movie Not in Database Open
+11/29/2018 01:26:08 PM,ERROR,House not in moviesJSON
+11/29/2018 01:26:08 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:26:09 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=House&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:26:09 PM,ERROR,Movie Not in Database House
+11/29/2018 01:26:14 PM,ERROR,Little Women not in moviesJSON
+11/29/2018 01:26:14 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:26:14 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Little+Women&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:26:31 PM,ERROR,Anne of the Green Gable not in moviesJSON
+11/29/2018 01:26:31 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:26:32 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Anne+of+the+Green+Gable&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:26:32 PM,ERROR,Movie Not in Database Anne of the Green Gable
+11/29/2018 01:26:42 PM,ERROR,Moby Dick not in moviesJSON
+11/29/2018 01:26:42 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:26:42 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Moby+Dick&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:27:29 PM,ERROR,Titanic not in moviesJSON
+11/29/2018 01:27:29 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:27:29 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Titanic&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:27:33 PM,ERROR,Titanic not in moviesJSON
+11/29/2018 01:27:33 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:27:33 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Titanic&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:27:34 PM,ERROR,Titanic not in moviesJSON
+11/29/2018 01:27:34 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:27:34 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Titanic&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:27:35 PM,ERROR,Titanic not in moviesJSON
+11/29/2018 01:27:35 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:27:35 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Titanic&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:27:35 PM,ERROR,Titanic not in moviesJSON
+11/29/2018 01:27:35 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:27:35 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Titanic&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:28:01 PM,ERROR,Odyssey not in moviesJSON
+11/29/2018 01:28:01 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:28:02 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Odyssey&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:28:02 PM,ERROR,Movie Not in Database Odyssey
+11/29/2018 01:28:05 PM,ERROR,The Odyssey not in moviesJSON
+11/29/2018 01:28:05 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:28:06 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Odyssey&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:28:06 PM,ERROR,Movie Not in Database The Odyssey
+11/29/2018 01:28:11 PM,ERROR,The Iliad not in moviesJSON
+11/29/2018 01:28:11 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:28:11 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Iliad&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:28:11 PM,ERROR,Movie Not in Database The Iliad
+11/29/2018 01:28:16 PM,ERROR,Iliad not in moviesJSON
+11/29/2018 01:28:16 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:28:16 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Iliad&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:28:16 PM,ERROR,Movie Not in Database Iliad
+11/29/2018 01:28:21 PM,ERROR,Trojan not in moviesJSON
+11/29/2018 01:28:21 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:28:21 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Trojan&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:28:21 PM,ERROR,Movie Not in Database Trojan
+11/29/2018 01:28:25 PM,ERROR,Spartan not in moviesJSON
+11/29/2018 01:28:25 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:28:26 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Spartan&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:28:26 PM,ERROR,Movie Not in Database Spartan
+11/29/2018 01:28:32 PM,ERROR,War and Peace not in moviesJSON
+11/29/2018 01:28:32 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:28:32 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=War+and+Peace&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:28:32 PM,ERROR,Movie Not in Database War and Peace
+11/29/2018 01:28:39 PM,ERROR,Anna Karenina not in moviesJSON
+11/29/2018 01:28:40 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:28:40 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Anna+Karenina&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:29:05 PM,ERROR,Peter Pan not in moviesJSON
+11/29/2018 01:29:05 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:29:05 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Peter+Pan&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:29:05 PM,ERROR,Movie Not in Database Peter Pan
+11/29/2018 01:29:19 PM,ERROR,Harry Potter not in moviesJSON
+11/29/2018 01:29:20 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:29:20 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:29:20 PM,ERROR,Movie Not in Database Harry Potter
+11/29/2018 01:29:32 PM,ERROR,The Grapes of Wrath not in moviesJSON
+11/29/2018 01:29:32 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:29:33 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Grapes+of+Wrath&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:29:33 PM,ERROR,Movie Not in Database The Grapes of Wrath
+11/29/2018 01:29:38 PM,ERROR,East of Eden not in moviesJSON
+11/29/2018 01:29:39 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:29:41 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=East+of+Eden&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:29:41 PM,ERROR,Movie Not in Database East of Eden
+11/29/2018 01:29:47 PM,ERROR,Winnie the Pooh not in moviesJSON
+11/29/2018 01:29:47 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:29:47 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Winnie+the+Pooh&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:29:55 PM,ERROR,Emma not in moviesJSON
+11/29/2018 01:29:55 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:29:55 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:30:00 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:30:00 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:30:09 PM,ERROR,Anna Karenina not in moviesJSON
+11/29/2018 01:30:10 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:30:12 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Anna+Karenina&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:30:18 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:30:18 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Gladiator&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:30:28 PM,ERROR,Fast and Furious not in moviesJSON
+11/29/2018 01:30:28 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:30:29 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Fast+and+Furious&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:30:29 PM,ERROR,Movie Not in Database Fast and Furious
+11/29/2018 01:30:37 PM,ERROR,Boys 'N Hood not in moviesJSON
+11/29/2018 01:30:37 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:30:37 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Boys+%27N+Hood&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:30:37 PM,ERROR,Movie Not in Database Boys 'N Hood
+11/29/2018 01:30:47 PM,ERROR,Lawrance of Arabia not in moviesJSON
+11/29/2018 01:30:47 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:30:47 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Lawrance+of+Arabia&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:30:47 PM,ERROR,Movie Not in Database Lawrance of Arabia
+11/29/2018 01:30:53 PM,ERROR,Lord of the Rings not in moviesJSON
+11/29/2018 01:30:53 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:30:53 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Lord+of+the+Rings&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:30:53 PM,ERROR,Movie Not in Database Lord of the Rings
+11/29/2018 01:31:07 PM,ERROR,The King's Speech not in moviesJSON
+11/29/2018 01:31:07 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:31:07 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+King%27s+Speech&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:31:16 PM,INFO,Program Terminated
+11/29/2018 01:40:28 PM,INFO,Program Starting
+11/29/2018 01:40:39 PM,ERROR,The King's Speech not in moviesJSON
+11/29/2018 01:40:40 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:40:40 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+King%27s+Speech&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:41:23 PM,ERROR,Anna Karenina not in moviesJSON
+11/29/2018 01:41:23 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:41:23 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Anna+Karenina&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:41:52 PM,ERROR,Princess Bride not in moviesJSON
+11/29/2018 01:41:52 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:41:53 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Princess+Bride&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:41:53 PM,ERROR,Movie Not in Database Princess Bride
+11/29/2018 01:42:20 PM,ERROR,The Princess Bride not in moviesJSON
+11/29/2018 01:42:20 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:42:20 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Princess+Bride&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:42:42 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:42:42 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Iron+Man&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:42:53 PM,ERROR,The Princess Bride not in moviesJSON
+11/29/2018 01:42:53 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:42:53 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Princess+Bride&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:43:49 PM,ERROR,Hulk not in moviesJSON
+11/29/2018 01:43:49 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:43:49 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Hulk&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:44:04 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:44:04 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:44:07 PM,ERROR,Hulk not in moviesJSON
+11/29/2018 01:44:07 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:44:08 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Hulk&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:44:23 PM,ERROR,Brokeback Mountain not in moviesJSON
+11/29/2018 01:44:23 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:44:23 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Brokeback+Mountain&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:44:44 PM,ERROR,Life of Pi not in moviesJSON
+11/29/2018 01:44:44 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:44:45 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Life+of+Pi&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:44:46 PM,ERROR,Life of Pi not in moviesJSON
+11/29/2018 01:44:46 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:44:47 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Life+of+Pi&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:45:21 PM,ERROR,Django Unchained not in moviesJSON
+11/29/2018 01:45:21 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:45:21 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Django+Unchained&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:45:46 PM,ERROR,Inception not in moviesJSON
+11/29/2018 01:45:46 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:45:46 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Inception&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:45:59 PM,ERROR,Fight Club not in moviesJSON
+11/29/2018 01:45:59 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:45:59 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Fight+Club&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:46:19 PM,ERROR,Inglorious Basterds not in moviesJSON
+11/29/2018 01:46:19 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:46:20 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Inglorious+Basterds&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:46:21 PM,ERROR,Movie Not in Database Inglorious Basterds
+11/29/2018 01:46:24 PM,ERROR,Inglorious Basterds not in moviesJSON
+11/29/2018 01:46:24 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:46:24 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Inglorious+Basterds&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:46:24 PM,ERROR,Movie Not in Database Inglorious Basterds
+11/29/2018 01:46:45 PM,ERROR,The Martian not in moviesJSON
+11/29/2018 01:46:45 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:46:45 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Martian&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:47:09 PM,ERROR,Ocean's Eleven not in moviesJSON
+11/29/2018 01:47:09 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:47:10 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Ocean%27s+Eleven&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:47:43 PM,ERROR,James Bond not in moviesJSON
+11/29/2018 01:47:43 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:47:43 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=James+Bond&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:47:43 PM,ERROR,Movie Not in Database James Bond
+11/29/2018 01:47:50 PM,ERROR,Jack Reacher not in moviesJSON
+11/29/2018 01:47:50 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:47:51 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Jack+Reacher&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:47:59 PM,ERROR,Top Gun not in moviesJSON
+11/29/2018 01:47:59 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:47:59 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Top+Gun&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:48:46 PM,ERROR,Won't You Be My Neighbor? not in moviesJSON
+11/29/2018 01:48:46 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:48:46 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Won%27t+You+Be+My+Neighbor%3F&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:48:46 PM,ERROR,Movie Not in Database Won't You Be My Neighbor?
+11/29/2018 01:48:47 PM,ERROR,Won't You Be My Neighbor? not in moviesJSON
+11/29/2018 01:48:47 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:48:48 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Won%27t+You+Be+My+Neighbor%3F&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:48:48 PM,ERROR,Movie Not in Database Won't You Be My Neighbor?
+11/29/2018 01:49:22 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:49:22 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Godfather&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:49:30 PM,ERROR,Westside Story not in moviesJSON
+11/29/2018 01:49:30 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:49:30 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Westside+Story&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:49:30 PM,ERROR,Movie Not in Database Westside Story
+11/29/2018 01:49:43 PM,ERROR,West Side Story not in moviesJSON
+11/29/2018 01:49:43 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:49:43 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=West+Side+Story&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:49:57 PM,ERROR,12 Angry Men not in moviesJSON
+11/29/2018 01:49:57 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:49:58 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=12+Angry+Men&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:50:06 PM,ERROR,Les Miserables not in moviesJSON
+11/29/2018 01:50:06 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:50:06 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Les+Miserables&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:50:06 PM,ERROR,Movie Not in Database Les Miserables
+11/29/2018 01:50:08 PM,ERROR,Les Miserables not in moviesJSON
+11/29/2018 01:50:08 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:50:08 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Les+Miserables&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:50:08 PM,ERROR,Movie Not in Database Les Miserables
+11/29/2018 01:50:19 PM,ERROR,Pulp Fiction not in moviesJSON
+11/29/2018 01:50:19 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:50:20 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Pulp+Fiction&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:50:37 PM,ERROR,The Lord of the Rings: The Return of the King not in moviesJSON
+11/29/2018 01:50:37 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:50:38 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Lord+of+the+Rings%3A+The+Return+of+the+King&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:50:54 PM,ERROR,Percy Jackson not in moviesJSON
+11/29/2018 01:50:54 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:50:54 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Percy+Jackson&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:50:54 PM,ERROR,Movie Not in Database Percy Jackson
+11/29/2018 01:51:03 PM,ERROR,Percy Jackson and the Sea of Monsters not in moviesJSON
+11/29/2018 01:51:03 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:51:05 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Percy+Jackson+and+the+Sea+of+Monsters&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:51:05 PM,ERROR,Movie Not in Database Percy Jackson and the Sea of Monsters
+11/29/2018 01:51:22 PM,ERROR,Harry Potter and the Deathly Hollow not in moviesJSON
+11/29/2018 01:51:22 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:51:24 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Deathly+Hollow&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:51:24 PM,ERROR,Movie Not in Database Harry Potter and the Deathly Hollow
+11/29/2018 01:51:35 PM,ERROR,Harry Potter and the Chamber of Secret not in moviesJSON
+11/29/2018 01:51:35 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:51:35 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Chamber+of+Secret&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:51:35 PM,ERROR,Movie Not in Database Harry Potter and the Chamber of Secret
+11/29/2018 01:51:36 PM,ERROR,Harry Potter and the Chamber of Secret not in moviesJSON
+11/29/2018 01:51:36 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:51:37 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Chamber+of+Secret&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:51:37 PM,ERROR,Movie Not in Database Harry Potter and the Chamber of Secret
+11/29/2018 01:51:49 PM,ERROR,Harry Potter and the Chamber of Secrets not in moviesJSON
+11/29/2018 01:51:49 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:51:49 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Chamber+of+Secrets&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:52:07 PM,ERROR,Harry Potter and the Prisoner of Azkaban not in moviesJSON
+11/29/2018 01:52:07 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:52:08 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Prisoner+of+Azkaban&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:52:25 PM,ERROR,Harry Potter and the Goblet of Fire not in moviesJSON
+11/29/2018 01:52:25 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:52:25 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Goblet+of+Fire&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:52:33 PM,ERROR,Harry Potter and the Philosopher's Stone not in moviesJSON
+11/29/2018 01:52:33 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:52:33 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Philosopher%27s+Stone&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:52:33 PM,WARNING,Harry Potter and the Philosopher's Stone does not have a poster url
+11/29/2018 01:52:48 PM,ERROR,Harry Potter and the Order of Phoenix not in moviesJSON
+11/29/2018 01:52:48 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:52:48 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Order+of+Phoenix&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:52:48 PM,ERROR,Movie Not in Database Harry Potter and the Order of Phoenix
+11/29/2018 01:52:56 PM,ERROR,Harry Potter and the Order of the Phoenix not in moviesJSON
+11/29/2018 01:52:56 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:52:56 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Order+of+the+Phoenix&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:53:24 PM,ERROR,Harry Potter and the Half-Blood Prince not in moviesJSON
+11/29/2018 01:53:24 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:53:24 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Half-Blood+Prince&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:53:32 PM,ERROR,Harry Potter and the Deathly Hollow not in moviesJSON
+11/29/2018 01:53:32 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:53:32 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Deathly+Hollow&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:53:32 PM,ERROR,Movie Not in Database Harry Potter and the Deathly Hollow
+11/29/2018 01:53:40 PM,ERROR,Harry Potter and the Deathly Hollows not in moviesJSON
+11/29/2018 01:53:40 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:53:40 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Deathly+Hollows&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:53:40 PM,ERROR,Movie Not in Database Harry Potter and the Deathly Hollows
+11/29/2018 01:53:44 PM,ERROR,Harry Potter and the Deathly Hollows part I not in moviesJSON
+11/29/2018 01:53:44 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:53:44 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Deathly+Hollows+part+I&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:53:44 PM,ERROR,Movie Not in Database Harry Potter and the Deathly Hollows part I
+11/29/2018 01:53:47 PM,ERROR,Harry Potter and the Deathly Hollows Part I not in moviesJSON
+11/29/2018 01:53:47 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:53:47 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Deathly+Hollows+Part+I&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:53:47 PM,ERROR,Movie Not in Database Harry Potter and the Deathly Hollows Part I
+11/29/2018 01:53:49 PM,ERROR,Harry Potter and the Deathly Hollows I not in moviesJSON
+11/29/2018 01:53:49 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:53:49 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Deathly+Hollows+I&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:53:49 PM,ERROR,Movie Not in Database Harry Potter and the Deathly Hollows I
+11/29/2018 01:54:01 PM,ERROR,Harry Potter and the Deathly Hollows: Part 1 not in moviesJSON
+11/29/2018 01:54:01 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:54:01 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Deathly+Hollows%3A+Part+1&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:54:01 PM,ERROR,Movie Not in Database Harry Potter and the Deathly Hollows: Part 1
+11/29/2018 01:54:02 PM,ERROR,Harry Potter and the Deathly Hollows: Part 1 not in moviesJSON
+11/29/2018 01:54:02 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:54:04 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Deathly+Hollows%3A+Part+1&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:54:04 PM,ERROR,Movie Not in Database Harry Potter and the Deathly Hollows: Part 1
+11/29/2018 01:54:06 PM,ERROR,Harry Potter and the Deathly Hollows: Part 2 not in moviesJSON
+11/29/2018 01:54:06 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:54:07 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Deathly+Hollows%3A+Part+2&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:54:07 PM,ERROR,Movie Not in Database Harry Potter and the Deathly Hollows: Part 2
+11/29/2018 01:54:32 PM,ERROR,Harry Potter and the Philosopher's Stone not in moviesJSON
+11/29/2018 01:54:32 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:54:32 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Philosopher%27s+Stone&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:54:32 PM,WARNING,Harry Potter and the Philosopher's Stone does not have a poster url
+11/29/2018 01:54:58 PM,ERROR,Harry Potter and the Deathly Hollows: Part 2 not in moviesJSON
+11/29/2018 01:54:58 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:54:58 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Harry+Potter+and+the+Deathly+Hollows%3A+Part+2&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 01:54:58 PM,ERROR,Movie Not in Database Harry Potter and the Deathly Hollows: Part 2
+11/29/2018 01:55:23 PM,ERROR,Fantastic Beasts and Where to Find Them not in moviesJSON
+11/29/2018 01:55:23 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:55:23 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Fantastic+Beasts+and+Where+to+Find+Them&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 01:55:23 PM,ERROR,Movie Not in Database Fantastic Beasts and Where to Find Them
+11/29/2018 01:56:03 PM,ERROR,The Theory of Everything not in moviesJSON
+11/29/2018 01:56:03 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:58:11 PM,INFO,Program Starting
+11/29/2018 01:58:16 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:58:16 PM,ERROR,Could not get Avatar from omdb
+11/29/2018 01:58:16 PM,WARNING,Avatar is not in imdb
+11/29/2018 01:58:16 PM,WARNING,Avatar does not have a poster url
+11/29/2018 01:58:33 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 01:58:33 PM,ERROR,Could not get Iron Man from omdb
+11/29/2018 01:58:33 PM,WARNING,Iron Man is not in imdb
+11/29/2018 01:58:33 PM,WARNING,Iron Man does not have a poster url
+11/29/2018 01:58:37 PM,INFO,Program Terminated
+11/29/2018 01:58:45 PM,INFO,Program Starting
+11/29/2018 01:59:18 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:00:18 PM,INFO,Program Starting
+11/29/2018 02:00:25 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:00:25 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:00:33 PM,INFO,Program Terminated
+11/29/2018 02:00:38 PM,INFO,Program Starting
+11/29/2018 02:00:41 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:00:41 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:00:41 PM,WARNING,Avatar is not in imdb
+11/29/2018 02:00:43 PM,INFO,Program Terminated
+11/29/2018 02:00:52 PM,INFO,Program Starting
+11/29/2018 02:00:56 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:00:57 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:00:57 PM,WARNING,Avatar is not in imdb
+11/29/2018 02:01:44 PM,INFO,Program Terminated
+11/29/2018 02:01:47 PM,INFO,Program Starting
+11/29/2018 02:01:59 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:01:59 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:01:59 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:01:59 PM,WARNING,Emma is not in imdb
+11/29/2018 02:02:08 PM,INFO,Program Terminated
+11/29/2018 02:02:44 PM,INFO,Program Starting
+11/29/2018 02:02:47 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:02:47 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:02:48 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:02:48 PM,WARNING,Emma is not in imdb
+11/29/2018 02:02:55 PM,INFO,Program Terminated
+11/29/2018 02:05:20 PM,INFO,Program Starting
+11/29/2018 02:05:23 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:05:23 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:05:24 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:05:24 PM,WARNING,Emma is not in imdb
+11/29/2018 02:05:31 PM,INFO,Program Terminated
+11/29/2018 02:06:15 PM,INFO,Program Starting
+11/29/2018 02:06:19 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:06:19 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:06:19 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:06:19 PM,WARNING,Emma is not in imdb
+11/29/2018 02:06:55 PM,INFO,Program Terminated
+11/29/2018 02:06:58 PM,INFO,Program Starting
+11/29/2018 02:07:01 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:07:01 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:07:01 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:07:01 PM,WARNING,Emma is not in imdb
+11/29/2018 02:07:07 PM,INFO,Program Terminated
+11/29/2018 02:08:09 PM,INFO,Program Starting
+11/29/2018 02:08:12 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:08:12 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:08:13 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:08:13 PM,WARNING,Emma is not in imdb
+11/29/2018 02:08:28 PM,INFO,Program Terminated
+11/29/2018 02:09:13 PM,INFO,Program Starting
+11/29/2018 02:09:16 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:09:17 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:09:17 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:09:17 PM,WARNING,Emma is not in imdb
+11/29/2018 02:09:19 PM,INFO,Program Terminated
+11/29/2018 02:09:53 PM,INFO,Program Starting
+11/29/2018 02:09:56 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:09:56 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:09:56 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:09:56 PM,WARNING,Emma is not in imdb
+11/29/2018 02:10:12 PM,INFO,Program Terminated
+11/29/2018 02:11:23 PM,INFO,Program Starting
+11/29/2018 02:11:27 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:11:27 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:11:28 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:11:28 PM,WARNING,Emma is not in imdb
+11/29/2018 02:11:34 PM,INFO,Program Terminated
+11/29/2018 02:12:46 PM,INFO,Program Starting
+11/29/2018 02:12:49 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:12:49 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:12:49 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:12:49 PM,WARNING,Emma is not in imdb
+11/29/2018 02:12:51 PM,INFO,Program Terminated
+11/29/2018 02:14:15 PM,INFO,Program Starting
+11/29/2018 02:14:19 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:14:19 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:14:19 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:14:19 PM,WARNING,Emma is not in imdb
+11/29/2018 02:14:34 PM,INFO,Program Terminated
+11/29/2018 02:17:24 PM,INFO,Program Starting
+11/29/2018 02:17:27 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:17:27 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:17:27 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:17:27 PM,WARNING,Emma is not in imdb
+11/29/2018 02:17:42 PM,INFO,Program Terminated
+11/29/2018 02:18:24 PM,INFO,Program Starting
+11/29/2018 02:18:28 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:18:28 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:18:28 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:18:28 PM,WARNING,Emma is not in imdb
+11/29/2018 02:18:30 PM,INFO,Program Terminated
+11/29/2018 02:19:01 PM,INFO,Program Starting
+11/29/2018 02:19:03 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:19:03 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:19:03 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:19:04 PM,WARNING,Emma is not in imdb
+11/29/2018 02:19:06 PM,INFO,Program Terminated
+11/29/2018 02:19:32 PM,INFO,Program Starting
+11/29/2018 02:19:35 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:19:35 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:19:35 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:19:36 PM,WARNING,Emma is not in imdb
+11/29/2018 02:19:37 PM,INFO,Program Terminated
+11/29/2018 02:20:10 PM,INFO,Program Starting
+11/29/2018 02:20:14 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:20:14 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:20:14 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:20:14 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 02:20:14 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 02:20:32 PM,INFO,Program Terminated
+11/29/2018 02:24:31 PM,INFO,Program Starting
+11/29/2018 02:24:39 PM,ERROR,Sound of Musics not in moviesJSON
+11/29/2018 02:24:39 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 02:24:39 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:24:39 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Sound+of+Musics&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/29/2018 02:24:39 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Sound of Musics
+11/29/2018 02:24:39 PM,ERROR,Movie Not in Database Sound of Musics
+11/29/2018 02:24:42 PM,ERROR,Sound of Music not in moviesJSON
+11/29/2018 02:24:42 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 02:24:42 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:24:42 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Sound+of+Music&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:24:42 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Sound of Music
+11/29/2018 02:24:42 PM,ERROR,Movie Not in Database Sound of Music
+11/29/2018 02:24:45 PM,ERROR,The Sound of Music not in moviesJSON
+11/29/2018 02:24:45 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 02:24:45 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:24:45 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Sound+of+Music&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:24:45 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: The Sound of Music
+11/29/2018 02:24:45 PM,INFO,Entering getAwards method
+11/29/2018 02:24:45 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 02:24:46 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0059742/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 02:24:46 PM,INFO,Exiting getAward method. AWARD: {'Best Picture': "Robert Wise    Robert Wise couldn't attend the award ceremony, as he was busy filming The Sand Pebbles (1966) in ...                More   Robert Wise couldn't attend the award ceremony, as he was busy filming The Sand Pebbles (1966) in Hong Kong. Saul Chaplin, the film's associate producer, accepted the award on his behalf. ", 'Best Director': "Robert Wise Robert Wise couldn't attend the award ceremony, as he was busy filming The Sand Pebbles (1966) in ...                More Robert Wise couldn't attend the award ceremony, as he was busy filming The Sand Pebbles (1966) in Hong Kong. Best Actress nominee Julie Andrews accepted the award on his behalf. ", 'Best Sound': 'James Corcoran (20th Century-Fox SSD) Fred Hynes (Todd-AO SSD) ', 'Best Film Editing': 'William Reynolds ', 'Best Music, Scoring of Music, Adaptation or Treatment': 'Irwin Kostal '}
+11/29/2018 02:24:46 PM,INFO,Entering getPoster method
+11/29/2018 02:24:47 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BODIxNjhkYjEtYzUyMi00YTNjLWE1YjktNjAyY2I2MWNkNmNmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg, POSTER FILE NAME: Posters/The_Sound_of_Music.jpg
+11/29/2018 02:24:55 PM,INFO,Program Terminated
+11/29/2018 02:25:40 PM,INFO,Program Starting
+11/29/2018 02:25:43 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 02:25:43 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:25:43 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:25:43 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+11/29/2018 02:25:43 PM,INFO,Entering getAwards method
+11/29/2018 02:25:43 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 02:25:44 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 02:25:44 PM,INFO,Exiting getAward method. AWARD: {'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+11/29/2018 02:25:44 PM,INFO,Entering getPoster method
+11/29/2018 02:25:45 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+11/29/2018 02:25:46 PM,INFO,Program Terminated
+11/29/2018 02:25:55 PM,INFO,Program Starting
+11/29/2018 02:25:59 PM,ERROR,Titanic not in moviesJSON
+11/29/2018 02:25:59 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 02:25:59 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:25:59 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Titanic&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:25:59 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Titanic
+11/29/2018 02:25:59 PM,INFO,Entering getAwards method
+11/29/2018 02:25:59 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 02:26:00 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0120338/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 02:26:00 PM,INFO,Exiting getAward method. AWARD: {'Best Picture': 'James Cameron  Jon Landau ', 'Best Director': 'James Cameron ', 'Best Cinematography': 'Russell Carpenter ', 'Best Art Direction-Set Decoration': 'Peter Lamont (art director) Michael Ford (set decorator) ', 'Best Costume Design': 'Deborah Lynn Scott ', 'Best Sound': 'Gary Rydstrom Tom Johnson Gary Summers Mark Ulano ', 'Best Film Editing': 'Conrad Buff IV James Cameron Richard A. Harris ', 'Best Effects, Sound Effects Editing': 'Tom Bellfort Christopher Boyes ', 'Best Effects, Visual Effects': 'Robert Legato Mark A. Lasoff Thomas L. Fisher Michael Kanfer ', 'Best Music, Original Song': 'James Horner (music) Will Jennings (lyrics)     For the song "My Heart Will Go On", performed by Céline Dion. ', 'Best Music, Original Dramatic Score': 'James Horner '}
+11/29/2018 02:26:00 PM,INFO,Entering getPoster method
+11/29/2018 02:26:00 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg, POSTER FILE NAME: Posters/Titanic.jpg
+11/29/2018 02:26:02 PM,INFO,Program Terminated
+11/29/2018 02:28:12 PM,INFO,Program Starting
+11/29/2018 02:28:16 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:28:16 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 02:28:16 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:28:16 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:28:16 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 02:28:16 PM,INFO,Entering getAwards method
+11/29/2018 02:28:16 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 02:28:16 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 02:28:17 PM,INFO,Exiting getAward method. AWARD: {'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 02:28:17 PM,INFO,Entering getPoster method
+11/29/2018 02:28:17 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+11/29/2018 02:28:27 PM,INFO,Program Terminated
+11/29/2018 02:31:02 PM,INFO,Program Starting
+11/29/2018 02:31:05 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:31:05 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 02:31:05 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:31:05 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:31:05 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 02:31:05 PM,INFO,Entering getAwards method
+11/29/2018 02:31:05 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 02:31:06 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 02:31:06 PM,INFO,Exiting getAward method. AWARD: {'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 02:31:06 PM,INFO,Entering getPoster method
+11/29/2018 02:31:06 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+11/29/2018 02:31:07 PM,INFO,Program Terminated
+11/29/2018 02:31:37 PM,INFO,Program Starting
+11/29/2018 02:31:40 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:31:40 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 02:31:40 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:31:40 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:31:40 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 02:31:40 PM,INFO,Entering getAwards method
+11/29/2018 02:31:40 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 02:31:40 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 02:31:41 PM,INFO,Exiting getAward method. AWARD: {'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 02:31:41 PM,INFO,Entering getPoster method
+11/29/2018 02:31:41 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+11/29/2018 02:31:41 PM,INFO,Program Terminated
+11/29/2018 02:32:32 PM,INFO,Program Starting
+11/29/2018 02:32:44 PM,ERROR,West Side Story not in moviesJSON
+11/29/2018 02:32:44 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 02:32:44 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:32:44 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=West+Side+Story&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:32:44 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: West Side Story
+11/29/2018 02:32:44 PM,INFO,Entering getAwards method
+11/29/2018 02:32:45 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 02:32:45 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0055614/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 02:32:45 PM,INFO,Exiting getAward method. AWARD: {'Best Picture': 'Robert Wise ', 'Best Actor in a Supporting Role': 'George Chakiris ', 'Best Actress in a Supporting Role': 'Rita Moreno ', 'Best Director': 'Robert Wise Jerome Robbins     For the first time a directing award is being shared. ', 'Best Cinematography, Color': 'Daniel L. Fapp ', 'Best Art Direction-Set Decoration, Color': 'Boris Leven Victor A. Gangelin ', 'Best Costume Design, Color': 'Irene Sharaff ', 'Best Sound': 'Fred Hynes (Todd-AO SSD) Gordon Sawyer (Samuel Goldwyn SSD) ', 'Best Film Editing': 'Thomas Stanford ', 'Best Music, Scoring of a Musical Picture': 'Saul Chaplin Johnny Green Sid Ramin Irwin Kostal '}
+11/29/2018 02:32:45 PM,INFO,Entering getPoster method
+11/29/2018 02:32:46 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTM0NDAxOTI5MF5BMl5BanBnXkFtZTcwNjI4Mjg3NA@@._V1_SX300.jpg, POSTER FILE NAME: Posters/West_Side_Story.jpg
+11/29/2018 02:32:47 PM,INFO,Program Terminated
+11/29/2018 02:59:51 PM,INFO,Program Starting
+11/29/2018 02:59:54 PM,ERROR,Emma not in moviesJSON
+11/29/2018 02:59:54 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 02:59:54 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 02:59:54 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 02:59:54 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 02:59:54 PM,INFO,Entering getAwards method
+11/29/2018 02:59:54 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 02:59:54 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 02:59:55 PM,INFO,Exiting getAward method. AWARD: {'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 02:59:55 PM,INFO,Entering getPoster method
+11/29/2018 02:59:55 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+11/29/2018 02:59:56 PM,INFO,Program Terminated
+11/29/2018 03:06:42 PM,INFO,Program Starting
+11/29/2018 03:06:47 PM,ERROR,Emma not in moviesJSON
+11/29/2018 03:06:47 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:06:47 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:06:47 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:06:47 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 03:06:47 PM,INFO,Entering getAwards method
+11/29/2018 03:06:47 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:06:47 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:06:48 PM,INFO,Exiting getAward method. AWARD: {'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 03:07:24 PM,INFO,Program Starting
+11/29/2018 03:07:27 PM,ERROR,Emma not in moviesJSON
+11/29/2018 03:07:27 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:07:27 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:07:27 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:07:27 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 03:07:27 PM,INFO,Entering getAwards method
+11/29/2018 03:07:27 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:07:28 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:07:28 PM,INFO,Exiting getAward method. AWARD: {'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 03:08:24 PM,INFO,Program Starting
+11/29/2018 03:08:27 PM,ERROR,Emma not in moviesJSON
+11/29/2018 03:08:27 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:08:27 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:08:27 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:08:27 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 03:08:27 PM,INFO,Entering getAwards method
+11/29/2018 03:08:27 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:08:28 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:08:28 PM,INFO,Exiting getAward method. AWARD: {'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 03:08:28 PM,INFO,Entering getPoster method
+11/29/2018 03:08:28 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+11/29/2018 03:08:38 PM,INFO,Program Terminated

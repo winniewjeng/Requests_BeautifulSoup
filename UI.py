@@ -24,6 +24,7 @@ class UI(PyQt5.QtWidgets.QMainWindow):
     """
 
     def __init__(self, moviesJSON=None, parent=None):
+        print("Entering UI CTOR")
         super(UI, self).__init__(parent)
 
         self.moviesJSON = moviesJSON
@@ -41,15 +42,15 @@ class UI(PyQt5.QtWidgets.QMainWindow):
             self.enterMoviePushButtonClicked)
         # Display
         self.show()
+        print("Exiting UI CTOR")
 
     def enterMoviePushButtonClicked(self):
         """
         Callback function for the enterMoviePushButton button object is clicked
         """
-
+        print("Entering UI enterMoviePushButtonClicked method")
         # Read the movie title from the GUI.  This is UNSAFE data.  Never trust a USER!
         movieTitle = self.centralWidget.enterMovieLineEdit.text()
-        #print("Movie Title {}".format(movieTitle))
 
         # Get our data
         try:
@@ -67,11 +68,17 @@ class UI(PyQt5.QtWidgets.QMainWindow):
         director, crew = openMovie.getCrew()
 
         awardDict = openMovie.getAwards()
+        # print("awardDict: {}".format(awardDict))
 
         # how do i "clear" central window awardsDisplay??? (6-d)
-
-        # Update UI_CentralWindow with awardDict
-        UI_CentralWindow.UI_CentralWindow.awardsDisplay(awardDict=awardDict)
+        self.statusBar().showMessage("Start Getting Award")
+        if awardDict is False or awardDict is None:
+            self.centralWidget.awardsDisplay.setText("No Award")
+            return
+        else:
+            # Update UI_CentralWindow with awardDict
+            self.centralWidget.updateAwards(awardDict)
+        self.statusBar().showMessage("Done Getting Award")
 
         self.statusBar().showMessage("Start Getting Poster")
 
@@ -100,4 +107,12 @@ class UI(PyQt5.QtWidgets.QMainWindow):
             "{:,.2f}".format(movieTitleQuery.vote_average))
         self.centralWidget.statusInformation.infoLabel.setText(
             movieTitleQuery.status)
+        print("Exiting UI enterMoviePushButtonClicked method")
         return
+
+
+# #  testing purpose. Comment out later
+# if __name__ == "__main__":
+#     print("Hello World")
+#     u = UI()
+#     u.enterMoviePushButtonClicked()

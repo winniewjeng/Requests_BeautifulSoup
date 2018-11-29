@@ -7,6 +7,7 @@ import PyQt5.QtWidgets
 
 import UI_MovieInfo
 
+import OpenMovie  # only for testing purpose. comment out later
 
 class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
     """
@@ -119,11 +120,25 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
 
     def updateAwards(self, awardsDict=None):
         """
-        Update the awards display window
+        Display the awards in the GUI
         """
+        print("Entering updateAwards in UI_CW")
         if awardsDict is not None:
+            # hboxAward = PyQt5.QtWidgets.QHBoxLayout()
+            # hboxAward.addLayout(awardsDict)
+            # self.awardsDisplay.setLayout(hboxAward)
+            # print(awardsDict)
             for k, v in awardsDict.items():
                 str = "AWARD: {:40}  WINNER: {:40}".format(k, ", ".join(v))
                 print(str)
                 self.awardsDisplay.append(str)
+        print("Exiting updateAwards in UI_CW")
         return
+
+#
+# if __name__ == "__main__":
+#     print("Hello World")
+#     u = UI_CentralWindow()
+#     o = OpenMovie.OpenMovie()
+#     awardD = o.getAwards()
+#     u.updatePoster("Avatar")

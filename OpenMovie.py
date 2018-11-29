@@ -22,7 +22,7 @@ class OpenMovie:
         """
         Constructor
         """
-
+        logging.info("Entering OpenMovie CTOR")
         # Save class data members
         self.title = title
         self.posterURL = posterURL
@@ -40,7 +40,9 @@ class OpenMovie:
             self.movie = client.get(title=title)
         except:
             logging.error("Could not get {} from omdb".format(title))
+            print("Could not get {} from omdb".format(title))
 
+        logging.info("Exiting OpenMovie CTOR. MOVIE TITLE: {}".format(self.title))
         return
 
     def __del__(self):
@@ -54,7 +56,7 @@ class OpenMovie:
         """
         Download the poster for this title and save with the same name
         """
-
+        logging.info("Entering getPoster method")
         try:
             # Set the posterURL to the ’poster’ element of the movie member
             self.posterURL = self.movie['poster']
@@ -82,6 +84,8 @@ class OpenMovie:
             logging.error(traceback.format_exc())
             return False
 
+        logging.info("Exiting getPoster method. URL: {}, POSTER FILE NAME: {}".format
+                     (self.posterURL, self.posterFileName))
         return True
 
     def getAwards(self):
@@ -89,17 +93,20 @@ class OpenMovie:
         Download the awards section for a movie from IMDB
         Use requests to download and beau-soup to scrape the info
         """
+        logging.info("Entering getAwards method")
         # check if movie has IMDB ID
         try:
             # extract the IMDB ID from OMDB
-            self.imbdID = self.movie['imbd_id']
-            # self.imbdID = "tt0499549"  # Avatar for testing purpose
+            self.imdbID = self.movie['imdb_id']
+            # self.imdbID = "tt0499549"  # Avatar for testing purpose
+            # print("{} has IMDB id {}".format(self.title, self.imdbID))
         except:
             logging.warning("{} is not in imdb".format(self.title))
-            return
+            print("{} is not in imdb".format(self.title))
+            return False
 
         #  feed IMDB ID to the url string
-        self.url = "https://www.imdb.com/title/{}/awards?ref =tt awd".format(self.imbdID)
+        self.url = "https://www.imdb.com/title/{}/awards?ref =tt awd".format(self.imdbID)
 
         # request get the url and turn it into soup
         r = requests.get(self.url)
@@ -113,9 +120,8 @@ class OpenMovie:
         # if table comes back as None, set class member awardsDict to an empty dict and return
         self.awardDict = {}
         if table is None:
-            # self.awardDict = {}
             logging.info("{} has won no award".format(self.title))
-            return  # ??? do I return the empty dict or do i simply return?
+            return self.awardDict  # ??? do I return the empty dict or do i simply return?
 
         # find all rows in the table
         rows = table.find_all('tr')
@@ -132,14 +138,13 @@ class OpenMovie:
             # don't print out the nominees
             if "Nominee" in x[0]:
                 break  # break out of the function
-
             elif index is True:  # first winning category requires special parsing
                 # print(x)
                 # print("\n")
                 for item in x:
-                    if "Winner\nOscar" not in item: # this is what i want
+                    if "Winner\nOscar" not in item:  # toss out the Winner\nOscar string
                         sublist = item.split('\n')
-                        print("|{}|".format(sublist))
+                        # print("|{}|".format(sublist))  # testing purpose. Comment out later
                         award_flag = True  # the award category is always the first element of the sublist
                         award_key = ""
                         award_val = ""
@@ -151,7 +156,6 @@ class OpenMovie:
                                 award_val += y
                                 award_val += " "
                         self.awardDict[award_key] = award_val  # update dictionary
-                        print(self.awardDict)
                 index = False  # flag marks the end of first winning category
 
             else:  # the rest of the winning categories have same method for parsing
@@ -169,7 +173,8 @@ class OpenMovie:
                         award_val += " "
                         self.awardDict[award_key] = award_val  # update dictionary
 
-        # print(self.awardDict)  # testing purpose. comment out
+        # print(self.awardDict, " in openMovie getAwards")  # testing purpose. comment out
+        logging.info("Exiting getAward method. AWARD: {}".format(self.awardDict))
         return self.awardDict
 
     def getMovieTitleData(self):
@@ -256,5 +261,5 @@ class OpenMovie:
 # if __name__ == "__main__":
 #     print("Hello World")
 #     op = OpenMovie()
-#     # op.getAwards()
-#     op.getPoster()
+#     op.getAwards()
+#     # op.getPoster()
