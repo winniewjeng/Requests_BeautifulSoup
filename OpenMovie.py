@@ -55,13 +55,13 @@ class OpenMovie:
         Download the poster for this title and save with the same name
         """
 
-        # If ’poster’ is not in our movie member, log and return False
-        if self.movie['poster'] is "N/A":
+        try:
+            # Set the posterURL to the ’poster’ element of the movie member
+            self.posterURL = self.movie['poster']
+        except:
+            # If ’poster’ is not in our movie member, log and return False
             logging.warning("{} does not have a poster url".format(self.title))
             return False
-
-        # Set the posterURL to the ’poster’ element of the movie member
-        self.posterURL = self.movie['poster']
 
         # Clear up the title of the movie poster name.  these symbols in a filename can create
         # problems for the OS and writing the file
@@ -90,12 +90,14 @@ class OpenMovie:
         Use requests to download and beau-soup to scrape the info
         """
         # check if movie has IMDB ID
-        if self.movie['imdb_id'] is "N/A":
+        try:
+            # extract the IMDB ID from OMDB
+            self.imbdID = self.movie['imbd_id']
+        except:
             logging.warning("{} is not in imdb".format(self.title))
             return
 
-        # extract the IMDB ID from OMDB and feed it to the url
-        self.imbdID = self.movie['imbd_id']
+        #  feed IMDB ID to the url string
         self.url = "https://www.imdb.com/title/{}/awards?ref =tt awd".format(self.imbdID)
 
         # request get the url and turn it into soup
@@ -110,9 +112,36 @@ class OpenMovie:
         # if table comes back as None, set class member awardsDict to an empty dict and return
         if table is None:
             self.awardDict = {}
-            logging.info("{} has no award".format(self.title))
+            logging.info("{} has won no award".format(self.title))
             return
 
+        # find all rows in the table
+        rows = table.find_all('tr')
+
+        data = []
+        for row in rows:
+            cols = row.find_all('td')  # for each row, find all column and strip the text
+            cols = [ele.text.strip() for ele in cols]  # Get rid of empty value from column
+            data.append([ele for ele in cols if ele])  # append this to a list to keep track of it
+
+        # plough through the list and find the winning categories
+        index = True  # flag the first winning category
+        for x in data:
+            # don't print out the nominees
+            if "Nominee" in x[0]:
+                break  # break out of the function
+
+            elif index is True:
+                print(x)
+                print("\n")
+                index = False
+
+            else:
+                list = x[0].split('\n')
+                filteredList = filter(None, list)
+                for element in filteredList:
+                    print(element)
+                print("\n")
 
     def getMovieTitleData(self):
         """
