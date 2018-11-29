@@ -92,8 +92,8 @@ class OpenMovie:
         # check if movie has IMDB ID
         try:
             # extract the IMDB ID from OMDB
-            # self.imbdID = self.movie['imbd_id']
-            self.imbdID = "tt0499549"  # Avatar for testing purpose
+            self.imbdID = self.movie['imbd_id']
+            # self.imbdID = "tt0499549"  # Avatar for testing purpose
         except:
             logging.warning("{} is not in imdb".format(self.title))
             return
@@ -256,4 +256,5 @@ class OpenMovie:
 if __name__ == "__main__":
     print("Hello World")
     op = OpenMovie()
-    op.getAwards()
+    # op.getAwards()
+    op.getPoster()

@@ -4,10 +4,9 @@ At this level we instantiate the Central Window which has the
 GUI elements.  This is also the level of handling signal/slot connections.
 """
 import datetime
-import json
+# import json
 import logging
 import traceback
-
 
 import PyQt5
 import PyQt5.QtWidgets

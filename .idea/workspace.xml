@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c58b95-d0f1-4f71-b6fb-7d231b0444cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenMovie.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenMovie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9.log" beforeDir="false" afterPath="$PROJECT_DIR$/lab9.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,41 +29,74 @@
         <counts>
           <entry key="cfg" value="1" />
           <entry key="log" value="1" />
-          <entry key="py" value="7" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Log" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="7" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cfg" value="1" />
-          <entry key="py" value="2323" />
+          <entry key="py" value="2409" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="2323" />
+          <entry key="Python" value="2409" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenMovie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="159" column="44" lean-forward="true" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
+            <state relative-caret-position="4351">
+              <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
               <folding>
                 <element signature="e#77#88#0" expanded="true" />
-                <marker date="1543474297693" expanded="true" signature="2356:5794" ph="..." />
+                <marker date="1543475455738" expanded="true" signature="2356:6331" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-105">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="e#200#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UI_CentralWindow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+              <folding>
+                <element signature="e#57#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI_MovieInfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="6" selection-start-line="4" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -89,6 +125,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>lab</find>
+      <find>central</find>
+      <find>getCa</find>
+      <find>ava</find>
+      <find>display</find>
+      <find>lay</find>
+      <find>play</find>
+      <find>director</find>
+      <find>get</find>
+      <find>json</find>
+      <find>award</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,11 +145,11 @@
       <list>
         <option value="$PROJECT_DIR$/movies.cfg" />
         <option value="$PROJECT_DIR$/OpenMovie.py" />
+        <option value="$PROJECT_DIR$/UI.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-175" />
     <option name="y" value="23" />
     <option name="width" value="994" />
     <option name="height" value="821" />
@@ -153,8 +199,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-175" y="23" width="994" height="821" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="994" height="821" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14688128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -217,11 +262,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenMovie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="159" column="44" lean-forward="true" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
+        <state relative-caret-position="4351">
+          <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
           <folding>
             <element signature="e#77#88#0" expanded="true" />
-            <marker date="1543474297693" expanded="true" signature="2356:5794" ph="..." />
+            <marker date="1543475455738" expanded="true" signature="2356:6331" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI_MovieInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" selection-start-line="4" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#200#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI_CentralWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+          <folding>
+            <element signature="e#57#69#0" expanded="true" />
           </folding>
         </state>
       </provider>

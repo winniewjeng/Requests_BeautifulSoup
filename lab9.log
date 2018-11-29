@@ -64,3 +64,131 @@
 11/23/2018 10:46:20 PM,INFO,Program Starting
 11/23/2018 10:46:26 PM,DEBUG,getPoster TITLE: Avatar URL:https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg
 11/23/2018 10:46:27 PM,INFO,Program Terminated
+11/28/2018 11:26:28 PM,INFO,Program Starting
+11/28/2018 11:26:34 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:26:34 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:26:52 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:26:52 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Iron+Man&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:27:00 PM,ERROR,Lion King not in moviesJSON
+11/28/2018 11:27:00 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:27:00 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Lion+King&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:27:00 PM,ERROR,Movie Not in Database Lion King
+11/28/2018 11:27:06 PM,ERROR,Winnie the Pooh not in moviesJSON
+11/28/2018 11:27:06 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:27:06 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Winnie+the+Pooh&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:27:27 PM,ERROR,Gone with the Wind not in moviesJSON
+11/28/2018 11:27:27 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:27:27 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Gone+with+the+Wind&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:28:13 PM,ERROR,Superman not in moviesJSON
+11/28/2018 11:28:13 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:28:13 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Superman&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:28:24 PM,ERROR,Sherlock Holmes not in moviesJSON
+11/28/2018 11:28:24 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:28:24 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Sherlock+Holmes&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:28:40 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:28:40 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Gladiator&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:28:49 PM,ERROR,Sherlock Holmes not in moviesJSON
+11/28/2018 11:28:49 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:28:49 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Sherlock+Holmes&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:29:00 PM,INFO,Program Terminated
+11/28/2018 11:29:27 PM,INFO,Program Starting
+11/28/2018 11:29:34 PM,ERROR,Winnie the Pooh not in moviesJSON
+11/28/2018 11:29:35 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:29:35 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Winnie+the+Pooh&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:29:42 PM,ERROR,Sherlock Holmes not in moviesJSON
+11/28/2018 11:29:42 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:29:42 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Sherlock+Holmes&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:29:48 PM,ERROR,Sense and Sensibility not in moviesJSON
+11/28/2018 11:29:48 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:29:48 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Sense+and+Sensibility&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:29:54 PM,ERROR,Titanic not in moviesJSON
+11/28/2018 11:29:54 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:29:54 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Titanic&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:30:04 PM,ERROR,Pride and Prejudice not in moviesJSON
+11/28/2018 11:30:04 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:30:05 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Pride+and+Prejudice&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:30:05 PM,ERROR,Movie Not in Database Pride and Prejudice
+11/28/2018 11:30:08 PM,ERROR,Pride and Prejudice not in moviesJSON
+11/28/2018 11:30:08 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:30:08 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Pride+and+Prejudice&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:30:08 PM,ERROR,Movie Not in Database Pride and Prejudice
+11/28/2018 11:30:11 PM,ERROR,Pride and Prejudice not in moviesJSON
+11/28/2018 11:30:11 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:30:11 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Pride+and+Prejudice&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:30:11 PM,ERROR,Movie Not in Database Pride and Prejudice
+11/28/2018 11:30:21 PM,ERROR,Blade Runner not in moviesJSON
+11/28/2018 11:30:21 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:30:21 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Blade+Runner&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:30:25 PM,ERROR,Pride and Prejudice not in moviesJSON
+11/28/2018 11:30:25 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:30:25 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Pride+and+Prejudice&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:30:25 PM,ERROR,Movie Not in Database Pride and Prejudice
+11/28/2018 11:30:26 PM,ERROR,Pride and Prejudice not in moviesJSON
+11/28/2018 11:30:26 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:30:26 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Pride+and+Prejudice&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:30:26 PM,ERROR,Movie Not in Database Pride and Prejudice
+11/28/2018 11:30:27 PM,ERROR,Pride and Prejudice not in moviesJSON
+11/28/2018 11:30:27 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:30:27 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Pride+and+Prejudice&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:30:27 PM,ERROR,Movie Not in Database Pride and Prejudice
+11/28/2018 11:30:30 PM,ERROR,Emma not in moviesJSON
+11/28/2018 11:30:30 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:30:30 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:30:32 PM,ERROR,Emma not in moviesJSON
+11/28/2018 11:30:32 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:30:32 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:30:49 PM,ERROR,Sense and Sensibility not in moviesJSON
+11/28/2018 11:30:49 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:30:49 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Sense+and+Sensibility&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:30:54 PM,ERROR,Emma not in moviesJSON
+11/28/2018 11:30:54 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:30:54 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:30:58 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:30:58 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:31:03 PM,ERROR,Emma not in moviesJSON
+11/28/2018 11:31:03 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:31:03 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:31:10 PM,ERROR,Sense and Sensibility not in moviesJSON
+11/28/2018 11:31:10 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:31:10 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Sense+and+Sensibility&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:31:15 PM,INFO,Program Terminated
+11/28/2018 11:32:00 PM,INFO,Program Starting
+11/28/2018 11:32:06 PM,ERROR,Emma not in moviesJSON
+11/28/2018 11:32:06 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:32:06 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:33:51 PM,INFO,Program Terminated
+11/28/2018 11:39:13 PM,INFO,Program Starting
+11/28/2018 11:39:26 PM,ERROR,Avengers not in moviesJSON
+11/28/2018 11:39:26 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:39:26 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avengers&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:39:26 PM,ERROR,Movie Not in Database Avengers
+11/28/2018 11:39:30 PM,ERROR,Avengers not in moviesJSON
+11/28/2018 11:39:30 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:39:30 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avengers&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:39:30 PM,ERROR,Movie Not in Database Avengers
+11/28/2018 11:39:36 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:39:36 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:39:41 PM,ERROR,Avengers not in moviesJSON
+11/28/2018 11:39:41 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:39:41 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avengers&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:39:41 PM,ERROR,Movie Not in Database Avengers
+11/28/2018 11:39:48 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:39:48 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Iron+Man&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:39:58 PM,ERROR,Winnie the Pooh not in moviesJSON
+11/28/2018 11:39:58 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:39:58 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Winnie+the+Pooh&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:40:02 PM,ERROR,Avengers not in moviesJSON
+11/28/2018 11:40:02 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:40:02 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avengers&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:40:03 PM,ERROR,Movie Not in Database Avengers
+11/28/2018 11:40:08 PM,ERROR,Avangers not in moviesJSON
+11/28/2018 11:40:08 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:40:08 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avangers&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+11/28/2018 11:40:08 PM,ERROR,Movie Not in Database Avangers
+11/28/2018 11:40:13 PM,ERROR,Titanic not in moviesJSON
+11/28/2018 11:40:13 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:40:13 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Titanic&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:40:18 PM,ERROR,Star Wars not in moviesJSON
+11/28/2018 11:40:18 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/28/2018 11:40:18 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Star+Wars&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/28/2018 11:40:25 PM,INFO,Program Terminated
