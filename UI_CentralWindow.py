@@ -122,23 +122,15 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
         """
         Display the awards in the GUI
         """
-        print("Entering updateAwards in UI_CW")
+        event = True  # flag the first item in dict bc it's the name of the event, not award/winner
         if awardsDict is not None:
-            # hboxAward = PyQt5.QtWidgets.QHBoxLayout()
-            # hboxAward.addLayout(awardsDict)
-            # self.awardsDisplay.setLayout(hboxAward)
-            # print(awardsDict)
             for k, v in awardsDict.items():
-                str = "AWARD: {:40}  WINNER: {:40}".format(k, ", ".join(v))
-                print(str)
-                self.awardsDisplay.append(str)
-        print("Exiting updateAwards in UI_CW")
+                if event is True:
+                    str = "{} {}".format(k, v)
+                    self.awardsDisplay.append(str)
+                    event = False
+                else:
+                    str = "Award: {} Winner(s): {}".format(k, v)
+                    # print(str)
+                    self.awardsDisplay.append(str)
         return
-
-#
-# if __name__ == "__main__":
-#     print("Hello World")
-#     u = UI_CentralWindow()
-#     o = OpenMovie.OpenMovie()
-#     awardD = o.getAwards()
-#     u.updatePoster("Avatar")

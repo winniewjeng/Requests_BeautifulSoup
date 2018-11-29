@@ -841,3 +841,93 @@
 11/29/2018 03:08:28 PM,INFO,Entering getPoster method
 11/29/2018 03:08:28 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
 11/29/2018 03:08:38 PM,INFO,Program Terminated
+11/29/2018 03:09:37 PM,INFO,Program Starting
+11/29/2018 03:09:41 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:09:41 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:09:41 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:09:41 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+11/29/2018 03:09:41 PM,INFO,Entering getAwards method
+11/29/2018 03:09:41 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:09:42 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:09:42 PM,INFO,Exiting getAward method. AWARD: {'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+11/29/2018 03:09:42 PM,INFO,Entering getPoster method
+11/29/2018 03:09:42 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+11/29/2018 03:10:00 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:10:00 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:10:00 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Iron+Man&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:10:00 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Iron Man
+11/29/2018 03:10:01 PM,INFO,Entering getAwards method
+11/29/2018 03:10:01 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:10:01 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0371746/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:10:02 PM,INFO,Exiting getAward method. AWARD: {}
+11/29/2018 03:10:02 PM,INFO,Entering getPoster method
+11/29/2018 03:10:02 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Iron_Man.jpg
+11/29/2018 03:10:14 PM,ERROR,West Side Story not in moviesJSON
+11/29/2018 03:10:14 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:10:14 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:10:14 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=West+Side+Story&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:10:14 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: West Side Story
+11/29/2018 03:10:14 PM,INFO,Entering getAwards method
+11/29/2018 03:10:14 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:10:16 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0055614/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:10:16 PM,INFO,Exiting getAward method. AWARD: {'Best Picture': 'Robert Wise ', 'Best Actor in a Supporting Role': 'George Chakiris ', 'Best Actress in a Supporting Role': 'Rita Moreno ', 'Best Director': 'Robert Wise Jerome Robbins     For the first time a directing award is being shared. ', 'Best Cinematography, Color': 'Daniel L. Fapp ', 'Best Art Direction-Set Decoration, Color': 'Boris Leven Victor A. Gangelin ', 'Best Costume Design, Color': 'Irene Sharaff ', 'Best Sound': 'Fred Hynes (Todd-AO SSD) Gordon Sawyer (Samuel Goldwyn SSD) ', 'Best Film Editing': 'Thomas Stanford ', 'Best Music, Scoring of a Musical Picture': 'Saul Chaplin Johnny Green Sid Ramin Irwin Kostal '}
+11/29/2018 03:10:16 PM,INFO,Entering getPoster method
+11/29/2018 03:10:16 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTM0NDAxOTI5MF5BMl5BanBnXkFtZTcwNjI4Mjg3NA@@._V1_SX300.jpg, POSTER FILE NAME: Posters/West_Side_Story.jpg
+11/29/2018 03:10:31 PM,ERROR,Sense and Sensibility not in moviesJSON
+11/29/2018 03:10:31 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:10:31 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:10:31 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Sense+and+Sensibility&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:10:31 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Sense and Sensibility
+11/29/2018 03:10:31 PM,INFO,Entering getAwards method
+11/29/2018 03:10:31 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:10:32 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0114388/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:10:32 PM,INFO,Exiting getAward method. AWARD: {'Best Writing, Screenplay Based on Material Previously Produced or Published': 'Emma Thompson '}
+11/29/2018 03:10:32 PM,INFO,Entering getPoster method
+11/29/2018 03:10:33 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BNzk1MjU3MDQyMl5BMl5BanBnXkFtZTcwNjc1OTM2MQ@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Sense_and_Sensibility.jpg
+11/29/2018 03:10:55 PM,INFO,Program Terminated
+11/29/2018 03:12:04 PM,INFO,Program Starting
+11/29/2018 03:12:07 PM,ERROR,Emma not in moviesJSON
+11/29/2018 03:12:07 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:12:07 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:12:07 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:12:07 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 03:12:07 PM,INFO,Entering getAwards method
+11/29/2018 03:12:07 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:12:08 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:12:08 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 03:12:08 PM,INFO,Entering getPoster method
+11/29/2018 03:12:08 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+11/29/2018 03:12:31 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:12:31 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:12:31 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:12:31 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+11/29/2018 03:12:31 PM,INFO,Entering getAwards method
+11/29/2018 03:12:31 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:12:33 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:12:33 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+11/29/2018 03:12:33 PM,INFO,Entering getPoster method
+11/29/2018 03:12:33 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+11/29/2018 03:12:50 PM,INFO,Program Terminated
+11/29/2018 03:20:16 PM,INFO,Program Starting
+11/29/2018 03:20:19 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:20:19 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:20:19 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:20:19 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+11/29/2018 03:20:19 PM,INFO,Entering getAwards method
+11/29/2018 03:20:19 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:20:20 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:20:21 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+11/29/2018 03:20:21 PM,INFO,Entering getPoster method
+11/29/2018 03:20:21 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+11/29/2018 03:20:35 PM,ERROR,West Side Story not in moviesJSON
+11/29/2018 03:20:35 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:20:35 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:20:35 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=West+Side+Story&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:20:35 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: West Side Story
+11/29/2018 03:20:35 PM,INFO,Entering getAwards method
+11/29/2018 03:20:35 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:20:36 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0055614/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:20:36 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Picture': 'Robert Wise ', 'Best Actor in a Supporting Role': 'George Chakiris ', 'Best Actress in a Supporting Role': 'Rita Moreno ', 'Best Director': 'Robert Wise Jerome Robbins     For the first time a directing award is being shared. ', 'Best Cinematography, Color': 'Daniel L. Fapp ', 'Best Art Direction-Set Decoration, Color': 'Boris Leven Victor A. Gangelin ', 'Best Costume Design, Color': 'Irene Sharaff ', 'Best Sound': 'Fred Hynes (Todd-AO SSD) Gordon Sawyer (Samuel Goldwyn SSD) ', 'Best Film Editing': 'Thomas Stanford ', 'Best Music, Scoring of a Musical Picture': 'Saul Chaplin Johnny Green Sid Ramin Irwin Kostal '}
+11/29/2018 03:20:36 PM,INFO,Entering getPoster method
+11/29/2018 03:20:37 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTM0NDAxOTI5MF5BMl5BanBnXkFtZTcwNjI4Mjg3NA@@._V1_SX300.jpg, POSTER FILE NAME: Posters/West_Side_Story.jpg
+11/29/2018 03:20:44 PM,INFO,Program Terminated

@@ -109,10 +109,3 @@ class UI(PyQt5.QtWidgets.QMainWindow):
             movieTitleQuery.status)
         print("Exiting UI enterMoviePushButtonClicked method")
         return
-
-
-# #  testing purpose. Comment out later
-# if __name__ == "__main__":
-#     print("Hello World")
-#     u = UI()
-#     u.enterMoviePushButtonClicked()

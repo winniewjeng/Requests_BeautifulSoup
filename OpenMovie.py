@@ -142,20 +142,19 @@ class OpenMovie:
                 # print(x)
                 # print("\n")
                 for item in x:
-                    if "Winner\nOscar" not in item:  # toss out the Winner\nOscar string
-                        sublist = item.split('\n')
-                        # print("|{}|".format(sublist))  # testing purpose. Comment out later
-                        award_flag = True  # the award category is always the first element of the sublist
-                        award_key = ""
-                        award_val = ""
-                        for y in sublist:
-                            if award_flag == True:
-                                award_key = y  # this is the award category
-                                award_flag = False  # after getting the key, flag to get the winners' names
-                            else:
-                                award_val += y
-                                award_val += " "
-                        self.awardDict[award_key] = award_val  # update dictionary
+                    sublist = item.split('\n')
+                    # print("|{}|".format(sublist))  # testing purpose. Comment out later
+                    award_flag = True  # the award category is always the first element of the sublist
+                    award_key = ""
+                    award_val = ""
+                    for y in sublist:
+                        if award_flag == True:
+                            award_key = y  # this is the award category
+                            award_flag = False  # after getting the key, flag to get the winners' names
+                        else:
+                            award_val += y
+                            award_val += " "
+                    self.awardDict[award_key] = award_val  # update dictionary
                 index = False  # flag marks the end of first winning category
 
             else:  # the rest of the winning categories have same method for parsing
@@ -255,11 +254,3 @@ class OpenMovie:
             return False
 
         return director, crew
-
-
-# #  testing purpose. Comment out later
-# if __name__ == "__main__":
-#     print("Hello World")
-#     op = OpenMovie()
-#     op.getAwards()
-#     # op.getPoster()
