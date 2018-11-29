@@ -4,7 +4,6 @@ At this level we instantiate the Central Window which has the
 GUI elements.  This is also the level of handling signal/slot connections.
 """
 import datetime
-import json
 import logging
 import traceback
 
@@ -16,18 +15,14 @@ import OpenMovie
 import UI_CentralWindow
 
 
-# REMEMBER TO REMOVE JSON IMPORTS AND RELATED CODES!!!!
-
 class UI(PyQt5.QtWidgets.QMainWindow):
     """
     Top level UI class
     """
 
-    def __init__(self, moviesJSON=None, parent=None):
+    def __init__(self, parent=None):
         print("Entering UI CTOR")
         super(UI, self).__init__(parent)
-
-        self.moviesJSON = moviesJSON
 
         # Create Main Window Elements
         self.statusBar().showMessage('Status Bar')
@@ -52,18 +47,14 @@ class UI(PyQt5.QtWidgets.QMainWindow):
         # Read the movie title from the GUI.  This is UNSAFE data.  Never trust a USER!
         movieTitle = self.centralWidget.enterMovieLineEdit.text()
 
-        # Get our data
-        try:
-            openMovie = OpenMovie.OpenMovie(
-                title=movieTitle, posterURL=self.moviesJSON['movie_posters'][movieTitle])
-        except KeyError:
-            logging.error("{} not in moviesJSON".format(movieTitle))
-            openMovie = OpenMovie.OpenMovie(title=movieTitle)
+        # Instantiate an openMovie object from the class
+        openMovie = OpenMovie.OpenMovie(title=movieTitle, posterURL=None)
 
         movieTitleQuery = openMovie.getMovieTitleData()
         if movieTitleQuery is False:
             return
 
+        # Get our data
         cast = openMovie.getCast()
         director, crew = openMovie.getCrew()
 

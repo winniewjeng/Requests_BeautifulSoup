@@ -1210,3 +1210,127 @@
 11/29/2018 03:38:12 PM,INFO,Entering getPoster method
 11/29/2018 03:38:12 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg, POSTER FILE NAME: Posters/Saving_Private_Ryan.jpg
 11/29/2018 03:38:23 PM,INFO,Program Terminated
+11/29/2018 03:41:14 PM,INFO,Program Starting
+11/29/2018 03:41:35 PM,INFO,Program Starting
+11/29/2018 03:41:46 PM,INFO,Program Starting
+11/29/2018 03:41:50 PM,ERROR,Emma not in moviesJSON
+11/29/2018 03:41:50 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:41:50 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:41:50 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:41:50 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 03:41:50 PM,INFO,Entering getAwards method
+11/29/2018 03:41:50 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:41:51 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:41:51 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 03:41:51 PM,INFO,Entering getPoster method
+11/29/2018 03:41:51 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+11/29/2018 03:41:52 PM,INFO,Program Terminated
+11/29/2018 03:49:11 PM,INFO,Program Starting
+11/29/2018 03:49:14 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:49:14 PM,DEBUG,http://www.omdbapi.com:80 "GET /?page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:49:14 PM,ERROR,Movie Not in Database None
+11/29/2018 03:49:17 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:49:17 PM,DEBUG,http://www.omdbapi.com:80 "GET /?page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:49:17 PM,ERROR,Movie Not in Database None
+11/29/2018 03:49:18 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:49:18 PM,DEBUG,http://www.omdbapi.com:80 "GET /?page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:49:18 PM,ERROR,Movie Not in Database None
+11/29/2018 03:49:18 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:49:19 PM,DEBUG,http://www.omdbapi.com:80 "GET /?page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:49:19 PM,ERROR,Movie Not in Database None
+11/29/2018 03:49:19 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:49:19 PM,DEBUG,http://www.omdbapi.com:80 "GET /?page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:49:19 PM,ERROR,Movie Not in Database None
+11/29/2018 03:50:28 PM,INFO,Program Terminated
+11/29/2018 03:50:31 PM,INFO,Program Starting
+11/29/2018 03:50:34 PM,ERROR,Emma not in moviesJSON
+11/29/2018 03:50:34 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:50:34 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:50:35 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:50:35 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 03:50:35 PM,INFO,Entering getAwards method
+11/29/2018 03:50:35 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:50:35 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:50:36 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 03:50:36 PM,INFO,Entering getPoster method
+11/29/2018 03:50:36 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+11/29/2018 03:53:43 PM,INFO,Program Terminated
+11/29/2018 03:53:59 PM,INFO,Program Starting
+11/29/2018 03:54:02 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:54:02 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:54:02 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:54:02 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 03:54:02 PM,INFO,Entering getAwards method
+11/29/2018 03:54:02 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:54:03 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:54:03 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 03:54:03 PM,INFO,Entering getPoster method
+11/29/2018 03:54:03 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+11/29/2018 03:54:08 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:54:08 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:54:08 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:54:08 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+11/29/2018 03:54:08 PM,INFO,Entering getAwards method
+11/29/2018 03:54:08 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:54:09 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:54:10 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+11/29/2018 03:54:10 PM,INFO,Entering getPoster method
+11/29/2018 03:54:10 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+11/29/2018 03:54:27 PM,INFO,Program Terminated
+11/29/2018 03:54:31 PM,INFO,Program Starting
+11/29/2018 03:54:34 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:54:34 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:54:34 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:54:34 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 03:54:34 PM,INFO,Entering getAwards method
+11/29/2018 03:54:34 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:54:35 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:54:35 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 03:54:35 PM,INFO,Entering getPoster method
+11/29/2018 03:54:35 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+11/29/2018 03:54:41 PM,INFO,Program Terminated
+11/29/2018 03:56:24 PM,INFO,Program Starting
+11/29/2018 03:56:43 PM,INFO,Program Starting
+11/29/2018 03:56:46 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:56:46 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:56:46 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:56:46 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+11/29/2018 03:56:46 PM,INFO,Entering getAwards method
+11/29/2018 03:56:46 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:56:47 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:56:47 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+11/29/2018 03:56:47 PM,INFO,Entering getPoster method
+11/29/2018 03:56:47 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+11/29/2018 03:56:53 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:56:53 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:56:53 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Winnie+the+Pooh&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:56:53 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Winnie the Pooh
+11/29/2018 03:56:53 PM,INFO,Entering getAwards method
+11/29/2018 03:56:53 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:56:54 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1449283/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:56:54 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Annie ', 'Storyboarding in a Feature Production': 'Jeremy Spears '}
+11/29/2018 03:56:54 PM,INFO,Entering getPoster method
+11/29/2018 03:56:54 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BYzBlYTJkMGQtYzQ4MS00Zjk3LTk4MmEtYTZiNTEzNmRlMjUxXkEyXkFqcGdeQXVyMzI0NDc4ODY@._V1_SX300.jpg, POSTER FILE NAME: Posters/Winnie_the_Pooh.jpg
+11/29/2018 03:57:20 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:57:20 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:57:20 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=West+Side+Story&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:57:20 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: West Side Story
+11/29/2018 03:57:20 PM,INFO,Entering getAwards method
+11/29/2018 03:57:20 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:57:21 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0055614/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:57:21 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Picture': 'Robert Wise ', 'Best Actor in a Supporting Role': 'George Chakiris ', 'Best Actress in a Supporting Role': 'Rita Moreno ', 'Best Director': 'Robert Wise Jerome Robbins     For the first time a directing award is being shared. ', 'Best Cinematography, Color': 'Daniel L. Fapp ', 'Best Art Direction-Set Decoration, Color': 'Boris Leven Victor A. Gangelin ', 'Best Costume Design, Color': 'Irene Sharaff ', 'Best Sound': 'Fred Hynes (Todd-AO SSD) Gordon Sawyer (Samuel Goldwyn SSD) ', 'Best Film Editing': 'Thomas Stanford ', 'Best Music, Scoring of a Musical Picture': 'Saul Chaplin Johnny Green Sid Ramin Irwin Kostal '}
+11/29/2018 03:57:21 PM,INFO,Entering getPoster method
+11/29/2018 03:57:22 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTM0NDAxOTI5MF5BMl5BanBnXkFtZTcwNjI4Mjg3NA@@._V1_SX300.jpg, POSTER FILE NAME: Posters/West_Side_Story.jpg
+11/29/2018 03:57:27 PM,INFO,Program Terminated
+11/29/2018 03:57:53 PM,INFO,Program Starting
+11/29/2018 03:58:19 PM,INFO,Entering OpenMovie CTOR
+11/29/2018 03:58:19 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+11/29/2018 03:58:19 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Anne+of+Green+Gables&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+11/29/2018 03:58:19 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Anne of Green Gables
+11/29/2018 03:58:19 PM,INFO,Entering getAwards method
+11/29/2018 03:58:19 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+11/29/2018 03:58:20 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0088727/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+11/29/2018 03:58:20 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Primetime Emmy ', "Outstanding Children's Program": 'Kevin Sullivan (executive producer/producer)  Lee Polk (executive producer)  Ian McDougall (producer) '}
+11/29/2018 03:58:20 PM,INFO,Entering getPoster method
+11/29/2018 03:58:20 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BNDI4MjA2MzUxOV5BMl5BanBnXkFtZTcwNjE0MjE2MQ@@._V1._CR53,69,306,401_SY132_CR6,0,89,132_AL_.jpg_V1_SX300.jpg, POSTER FILE NAME: Posters/Anne_of_Green_Gables.jpg
+11/29/2018 03:58:39 PM,INFO,Program Terminated

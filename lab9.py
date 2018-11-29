@@ -49,13 +49,10 @@ if __name__ == "__main__":
     if not ORM.tableExists(ORM.inspector, "Credits"):
         ORM.csvToTable(creditsCSVFile, tableName="Credits", db=ORM.db)
 
-    f = open("movies.json")
-    json_data = json.load(f)
-
     # These are the file unzipped from https://www.kaggle.com/tmdb/tmdb-movie-metadata/data
 
     app = PyQt5.QtWidgets.QApplication(sys.argv)
-    gui = UI.UI(moviesJSON=json_data)
+    gui = UI.UI()
     gui.show()
     app.exec_()
 
