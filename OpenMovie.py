@@ -92,8 +92,8 @@ class OpenMovie:
         # check if movie has IMDB ID
         try:
             # extract the IMDB ID from OMDB
-            self.imbdID = self.movie['imbd_id']
-            # self.imbdID = "tt0499549"  # Avatar for testing purpose
+            # self.imbdID = self.movie['imbd_id']
+            self.imbdID = "tt0499549"  # Avatar for testing purpose
         except:
             logging.warning("{} is not in imdb".format(self.title))
             return
@@ -150,16 +150,27 @@ class OpenMovie:
                             else:
                                 award_val += y
                                 award_val += " "
-                        self.awardDict[award_key] = award_val
+                        self.awardDict[award_key] = award_val  # update dictionary
                         print(self.awardDict)
                 index = False  # flag marks the end of first winning category
 
-            else:
+            else:  # the rest of the winning categories have same method for parsing
                 list = x[0].split('\n')
                 filteredList = filter(None, list)
+                award_flag = True
+                award_key = ""
+                award_val = ""
                 for element in filteredList:
-                    print(element)
-                print("\n")
+                    if award_flag == True:
+                        award_key = element  # first element of the filteredList is winning award category
+                        award_flag = False
+                    else:
+                        award_val += element
+                        award_val += " "
+                        self.awardDict[award_key] = award_val  # update dictionary
+
+        # print(self.awardDict)  # testing purpose. comment out
+        return self.awardDict
 
     def getMovieTitleData(self):
         """
